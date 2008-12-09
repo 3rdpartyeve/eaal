@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2008-12-08 15:22:26</currentTime>
+  <result>
+    <rowset name="kills" key="killID" columns="killID,solarSystemID,killTime,moonID">
+      <row killID="1" solarSystemID="1" killTime="2008-12-07 14:11:00" moonID="0">
+        <victim characterID="179004085" characterName="Peter Powers" corporationID="402487260" corporationName="FinFleet" allianceID="632866070" allianceName="Band of Brothers" factionID="0" factionName="" damageTaken="15909" shipTypeID="22448" />
+        <rowset name="attackers" columns="characterID,characterName,corporationID,corporationName,allianceID,allianceName,factionID,factionName,securityStatus,damageDone,finalBlow,weaponTypeID,shipTypeID">
+          <row characterID="12345" characterName="Test Tester" corporationID="54321" corporationName="Test Corp" allianceID="1" allianceName="Test Alliance" factionID="0" factionName="" securityStatus="4" damageDone="15909" finalBlow="1" weaponTypeID="14286" shipTypeID="24688" />
+        </rowset>
+        <rowset name="items" columns="typeID,flag,qtyDropped,qtyDestroyed">
+          <row typeID="2048" flag="0" qtyDropped="1" qtyDestroyed="0" />
+          <row typeID="12814" flag="5" qtyDropped="0" qtyDestroyed="6" />
+        </rowset>
+      </row>
+    </rowset>
+  </result>
+  <cachedUntil>2020-12-08 16:22:26</cachedUntil>
+</eveapi>

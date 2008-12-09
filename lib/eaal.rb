@@ -1,0 +1,6 @@
+path = File.dirname(__FILE__) + '/eaal/'
+require path + 'eaal_cache.rb'
+require path + 'eaal_exception.rb'
+require path + 'eaal_result.rb'
+require path + 'eaal_rowset.rb'
+require path + 'eaal.rb'
