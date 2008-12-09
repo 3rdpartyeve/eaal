@@ -40,7 +40,7 @@ Example 2, getting the id for a given character name
  api = EAAL::API.new("my userid", "my API key")
  api.scope = "eve"
  result = api.CharacterID(:names => "Peter Powers")
- puts result.characters.name
+ puts result.characters.first.characterID
 
 Example 3, Example 2 in short
  puts EAAL::Api.new("my userid", "my API key", "eve").CharacterID(:names => "Peter Powers").characters.name
