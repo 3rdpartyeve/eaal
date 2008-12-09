@@ -60,6 +60,24 @@ Example 4, catching a specific EVE API Exception
     #dosomething
   end
 
+EAAL comes with a simple file cache, which can be used by doing
+  EAAL.cache = EAAL::Cache::FileCache.new(path)
+if you dont give a path it defaults to $HOME/.eaal/cache
+
+Example 5, doing a cached request
+  require 'eaal'
+  EAAL.cache = EAAL::Cache::FileCache.new               # set cache
+  api = EAAL::API.new("my userid", "my API key")        # initialize API object
+  charid = api.Characters.characters.first.characterID  # get the characterID of the first character on account
+  api.scope = "char"                                    # set scope to "char"
+  kills = api.Killlog("characterID" => charid).kills    # request Killlog API Page
+
+both requests in this example will check if the XML is allready available in the cache folder,
+if it is they will check if cachedUntil expired, if it did requests will be made to the API, if it didnt
+the XML file will be load.
+
+
+
 
 == REQUIREMENTS:
 
