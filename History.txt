@@ -1,3 +1,8 @@
+== 0.1.1 2008-12-10
+
+* 1 bugfix:
+  * Rowsets now wont be replaced by ResultElements
+
 == 0.1.0 2008-12-08
 
 * 1 major enhancement:
