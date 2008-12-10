@@ -55,8 +55,7 @@ module EAAL
             # necessary
             def self.parse_element(prefix, element)
                 if element.name == "rowset"
-                    value = EAAL::Rowset.new(prefix, element)
-                    key = value.name
+                    re = EAAL::Rowset.new(prefix, element)
                 else
                     key = element.name
                     if element.containers.length > 0
@@ -73,10 +72,10 @@ module EAAL
                     else
                         value = element.inner_html
                     end
-                end
-                re = ResultElement.new(key, value)
-                if element.attributes.length > 0
-                    re.attribs.merge!(element.attributes)
+                    re = ResultElement.new(key, value)
+                    if element.attributes.length > 0
+                        re.attribs.merge!(element.attributes)
+                    end
                 end
                 re
             end
@@ -98,7 +97,11 @@ module EAAL
             elements.each {|element|
                 el = EAAL::Result::ResultElement.parse_element(prefix, element)
                 members << el.name
-                values.merge!({el.name => el.value})
+                if el.kind_of? EAAL::Rowset::RowsetBase
+                    values.merge!({el.name => el})
+                else
+                    values.merge!({el.name => el.value})
+                end
             }
             if not Object.const_defined? classname
                 klass = Object.const_set(classname, Class.new(EAAL::Result::ResultBase))    
