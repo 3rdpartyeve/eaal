@@ -81,7 +81,7 @@ module EAAL
             end
         end
 
-
+	# create a new result derived from ResultBase
         def self.new(prefix, xml)
             classname = prefix + 'Result'
             members = []

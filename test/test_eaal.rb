@@ -34,6 +34,7 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.Killlog(:characterID => 12345).kills.first.attackers.first.characterID, "12345"
   end
 
+  # test to check if bug 23177 is fixed. that bug lead to RowSets beeing encapsulated in ResultElements.
   def test_bug_23177
    @api.scope = "eve"
    assert_kind_of EAAL::Rowset::RowsetBase, @api.AllianceList.alliances.first.memberCorporations

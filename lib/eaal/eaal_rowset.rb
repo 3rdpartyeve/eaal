@@ -6,10 +6,12 @@
 module EAAL
 
     module Rowset
-
+	
+	# RowsetBase class, all RowSets should be derived from this
         class RowsetBase < Array
             attr_accessor :name, :columns, :rowclass
             
+	    # create a new row in this RowSet
             def create_row(xml)
                 row = self.rowclass.new
                 self.columns.each { |colname|
@@ -24,10 +26,14 @@ module EAAL
                row
             end
         end
-        
+       
+        # BaseClass for Rows, all Rows should be derived from this
         class RowBase < EAAL::Result::ResultContainer
         end
-        
+       
+        # create a new RowSet Object
+	# * prefix string prefix for building the RowSet name
+	# * xml the xml for the RowSet
         def self.new(prefix, xml)
             name = xml['name']
             columns = xml['columns'].split(',')
