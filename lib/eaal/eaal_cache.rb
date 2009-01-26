@@ -49,7 +49,7 @@ module EAAL
           ret = false
         else
           xml = File.open(filename).read
-          if self.validate_cache(xml)
+          if self.validate_cache(xml, name)
             ret = xml
           else
             ret = false
@@ -59,9 +59,13 @@ module EAAL
       end
       
       # validate cached datas cachedUntil
-      def validate_cache(xml)
+      def validate_cache(xml, name)
         doc = Hpricot.XML(xml)
-        (doc/"/eveapi/cachedUntil").inner_html.to_time > Time.now
+	if name == "WalletJournal"
+          Time.at((doc/"/eveapi/cachedUntil").inner_html.to_time.to_i + 3600) > Time.now
+        else 
+	  (doc/"/eveapi/cachedUntil").inner_html.to_time > Time.now
+	end
       end
       
       # save xml data to file

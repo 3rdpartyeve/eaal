@@ -1,3 +1,8 @@
+== 0.1.2 2009-01-26
+
+* 1 workarround:
+  * the EVE API does not give the right cache timers for WalletJournal, so eaal now adds one hour when needed (dirty hack)
+
 == 0.1.1 2008-12-10
 
 * 1 bugfix:
