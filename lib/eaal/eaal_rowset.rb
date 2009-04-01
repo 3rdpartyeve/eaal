@@ -17,12 +17,12 @@ module EAAL
                 self.columns.each { |colname|
                     row.send(colname +"=", xml[colname]) # row content ignored so far (needs to be added!!!)
                 }
-                if xml.containers.length > 0
+                if xml.children && xml.containers.length > 0
                     xml.containers.each { |child|
                         el = EAAL::Result::ResultElement.parse_element(self.rowclass.name, child)
                         row.add_element(el.name, el)
                     }
-                end
+                end 
                row
             end
         end

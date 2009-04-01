@@ -58,7 +58,7 @@ module EAAL
                     re = EAAL::Rowset.new(prefix, element)
                 else
                     key = element.name
-                    if element.containers.length > 0
+                    if element.children && element.containers.length > 0
                         container = ResultContainer.new
                         element.containers.each { |celement|
                             cel = EAAL::Result::ResultElement.parse_element(prefix, celement)
