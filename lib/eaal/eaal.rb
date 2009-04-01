@@ -28,7 +28,7 @@ module EAAL
     
     mattr_reader :version_string, :version
     
-    @@version = "0.1.2"
+    @@version = "0.1.3"
     @@version_string = "EAAL" +  EAAL.version # the version string, used as client name in http requests
     
     mattr_accessor :api_base, :additional_request_parameters, :cache

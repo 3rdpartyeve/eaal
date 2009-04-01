@@ -1,3 +1,8 @@
+== 0.1.3 2009-04-01
+
+ * 1 fix:
+  * fixing problem with hpricot 0.7
+
 == 0.1.2 2009-01-26
 
 * 1 workarround:
