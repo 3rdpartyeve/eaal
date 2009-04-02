@@ -62,7 +62,7 @@ module EAAL
             rowset.rowclass = klass
             xml.containers.each{ |row|
                 rowset << rowset.create_row(row)
-            }
+            } if xml.children && xml.containers.length > 0
             rowset
         end
     end
