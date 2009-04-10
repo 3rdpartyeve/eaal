@@ -88,6 +88,10 @@ the XML file will be load.
 
 * sudo gem install eaal
 
+== THANKS:
+special thanks go to James "Ix_Forres" Harrison for his code cleanups and 
+his memcache cache handler
+
 == LICENSE:
 
 (The MIT License)
