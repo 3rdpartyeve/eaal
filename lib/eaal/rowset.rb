@@ -51,7 +51,7 @@ module EAAL
             if not Object.const_defined? rowname
                 klass = Object.const_set(rowname, Class.new(EAAL::Rowset::RowBase))
                 klass.class_eval do
-                    attr_accessor *columns
+                    attr_accessor(*columns)
                 end
             else
                 klass = Object.const_get(rowname)

@@ -106,7 +106,7 @@ module EAAL
             if not Object.const_defined? classname
                 klass = Object.const_set(classname, Class.new(EAAL::Result::ResultBase))    
                 klass.class_eval do
-                    attr_accessor *members
+                    attr_accessor(*members)
                 end
             else
                 klass = Object.const_get(classname)

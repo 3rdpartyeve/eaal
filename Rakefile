@@ -8,7 +8,7 @@ $hoe = Hoe.new('eaal', EAAL.version) do |p|
   p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.rubyforge_name       = p.name # TODO this is default value
   p.extra_deps         = [
-    ['activesupport','>= 2.0.2'], ['hpricot', '>= 0.6']
+    ['activesupport','>= 2.0.2'], ['hpricot', '>= 0.6'], ['memcache-client','>= 1.7.1']
   ]
   p.extra_dev_deps = [
     ['newgem', ">= #{::Newgem::VERSION}"]

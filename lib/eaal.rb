@@ -28,6 +28,7 @@ require 'cgi'
 # And now EAAL stuff
 require 'eaal/cache/base'
 require 'eaal/cache/file'
+require 'eaal/cache/memcached'
 require 'eaal/exception'
 require 'eaal/result'
 require 'eaal/rowset'
