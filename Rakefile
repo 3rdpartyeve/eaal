@@ -1,9 +1,9 @@
-%w[rubygems rake rake/clean fileutils newgem rubigen].each { |f| require f }
+%w[hoe rubygems rake rake/clean fileutils newgem rubigen].each { |f| require f }
 require File.dirname(__FILE__) + '/lib/eaal.rb'
 
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
-$hoe = Hoe.new('eaal', EAAL.version) do |p|
+$hoe = Hoe.spec 'eaal' do |p|
   p.developer('Peter Petermann', 'PeterPetermann@gmx.net')
   p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.rubyforge_name       = p.name # TODO this is default value
