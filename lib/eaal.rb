@@ -33,10 +33,9 @@ require 'eaal/exception'
 require 'eaal/result'
 require 'eaal/rowset'
 module EAAL
-  mattr_reader :version_string, :version
-  VERSION = "0.1.5"
-  @@version = "0.1.5"
-  @@version_string = "EAAL" +  EAAL.version # the version string, used as client name in http requests
+  mattr_reader :version_string
+  VERSION = "0.1.5" # fix for Hoe.spec 2.x
+  @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
     
   mattr_accessor :api_base, :additional_request_parameters, :cache
   @@api_base = "http://api.eve-online.com/"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
