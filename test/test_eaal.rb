@@ -15,7 +15,7 @@ class TestEaal < Test::Unit::TestCase
   # some random tests if parsing the xml builds the right class
   def test_api_classes
     @api.scope = "char"  
-    assert_raise (EAAL::Exception.EveAPIException(105)) { @api.Killlog }
+    assert_raise EAAL::Exception.EveAPIException(105) do @api.Killlog end
     assert_equal @api.Killlog(:characterID => 12345).class.name, "CharKilllogResult"
     assert_equal @api.Killlog(:characterID => 12345).kills.class.name, "CharKilllogRowsetKills"
     assert_equal @api.Killlog(:characterID => 12345).kills.first.class.name, "CharKilllogRowsetKillsRow"
@@ -39,6 +39,15 @@ class TestEaal < Test::Unit::TestCase
    @api.scope = "eve"
    assert_kind_of EAAL::Rowset::RowsetBase, @api.AllianceList.alliances.first.memberCorporations
   end
+
+  def test_standings
+    @api.scope = "account"
+    id = @api.Characters.characters.first.characterID
+    @api.scope = "char"
+    p @api.Standings("characterID" => 12345)
+
+  end
+
   # Test to ensure Memcached works
   def test_memcached
     # TODO: API needs mocking properly instead of depending on file cache for test loading.
@@ -50,4 +59,5 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.Characters.characters.first.name, "Test Tester"
     # TODO: Needs some better tests here.
   end
+
 end
