@@ -44,12 +44,13 @@ class TestEaal < Test::Unit::TestCase
     @api.scope = "account"
     id = @api.Characters.characters.first.characterID
     @api.scope = "char"
-    p @api.Standings("characterID" => 12345)
-
+    @api.Standings("characterID" => 12345)
   end
 
   # Test to ensure Memcached works
   def test_memcached
+    # FIXME must check if memcache server is installed... (binary memcache)
+    # Note if I run memcached I get a new error: EAAL::Exception::APINotFoundError: The requested API (account / Chracters) could not be found.
     # TODO: API needs mocking properly instead of depending on file cache for test loading.
     EAAL.cache = EAAL::Cache::MemcachedCache.new
     @api.scope = "account"
