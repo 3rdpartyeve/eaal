@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <eveapi version="2">
-  <currentTime>2009-08-25 12:19:35</currentTime>
+  <currentTime>2009-08-25 13:19:49</currentTime>
   <result>
     <rowset name="alliances" key="allianceID" columns="name,shortName,allianceID,executorCorpID,memberCount,startDate">
       <row name="GoonSwarm" shortName="OHGOD" allianceID="824518128" executorCorpID="749147334" memberCount="5059" startDate="2006-06-03 00:50:00">
@@ -163,7 +163,7 @@
           <row corporationID="1973809946" startDate="2009-08-02 01:00:00" />
         </rowset>
       </row>
-      <row name="Shadow of xXDEATHXx" shortName="X.W.X" allianceID="1802176600" executorCorpID="1802019581" memberCount="2773" startDate="2008-07-02 09:25:00">
+      <row name="Shadow of xXDEATHXx" shortName="X.W.X" allianceID="1802176600" executorCorpID="1802019581" memberCount="2772" startDate="2008-07-02 09:25:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="101861570" startDate="2008-12-08 16:33:00" />
           <row corporationID="114604948" startDate="2008-07-17 19:44:00" />
@@ -322,7 +322,7 @@
           <row corporationID="2059302505" startDate="2009-03-01 21:29:00" />
         </rowset>
       </row>
-      <row name="Wildly Inappropriate." shortName="WI." allianceID="1899990246" executorCorpID="888001549" memberCount="2083" startDate="2008-06-02 00:38:00">
+      <row name="Wildly Inappropriate." shortName="WI." allianceID="1899990246" executorCorpID="888001549" memberCount="2084" startDate="2008-06-02 00:38:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="144534752" startDate="2008-12-30 19:22:00" />
           <row corporationID="144541717" startDate="2009-04-07 06:54:00" />
@@ -601,7 +601,7 @@
           <row corporationID="1948808587" startDate="2009-07-20 05:03:00" />
         </rowset>
       </row>
-      <row name="Cult of War" shortName="-COW-" allianceID="1671078301" executorCorpID="1670070832" memberCount="1335" startDate="2008-12-05 21:05:00">
+      <row name="Cult of War" shortName="-COW-" allianceID="1671078301" executorCorpID="1670070832" memberCount="1334" startDate="2008-12-05 21:05:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="147142353" startDate="2009-06-09 16:00:00" />
           <row corporationID="148763686" startDate="2009-08-07 04:28:00" />
@@ -764,6 +764,28 @@
           <row corporationID="1663826585" startDate="2008-09-30 22:28:00" />
         </rowset>
       </row>
+      <row name="Ethereal Dawn" shortName="ED" allianceID="494403294" executorCorpID="836317137" memberCount="957" startDate="2007-07-03 10:08:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="104720424" startDate="2009-01-29 10:28:00" />
+          <row corporationID="154041317" startDate="2007-07-05 02:37:00" />
+          <row corporationID="211665191" startDate="2008-06-13 15:38:00" />
+          <row corporationID="241862414" startDate="2008-03-20 02:29:00" />
+          <row corporationID="272725849" startDate="2009-05-04 03:16:00" />
+          <row corporationID="399545680" startDate="2008-10-18 20:31:00" />
+          <row corporationID="480852040" startDate="2007-07-08 01:39:00" />
+          <row corporationID="542378788" startDate="2009-05-15 23:21:00" />
+          <row corporationID="724710872" startDate="2007-07-03 10:08:00" />
+          <row corporationID="777215291" startDate="2007-07-04 17:37:00" />
+          <row corporationID="785714366" startDate="2008-11-30 22:12:00" />
+          <row corporationID="836317137" startDate="2007-07-04 12:37:00" />
+          <row corporationID="925560368" startDate="2009-01-26 23:20:00" />
+          <row corporationID="960540825" startDate="2007-11-21 01:18:00" />
+          <row corporationID="1245368121" startDate="2008-06-01 23:45:00" />
+          <row corporationID="1552312459" startDate="2009-06-16 07:10:00" />
+          <row corporationID="1634222471" startDate="2009-03-29 22:56:00" />
+          <row corporationID="1847705589" startDate="2008-03-25 13:52:00" />
+        </rowset>
+      </row>
       <row name="Sc0rched Earth" shortName="BYRN" allianceID="1521124792" executorCorpID="1519479143" memberCount="956" startDate="2008-10-02 00:55:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="193048884" startDate="2009-05-20 22:48:00" />
@@ -785,28 +807,6 @@
           <row corporationID="1519479143" startDate="2008-10-02 00:55:00" />
           <row corporationID="1547478108" startDate="2009-05-21 19:46:00" />
           <row corporationID="1929456583" startDate="2009-08-24 04:31:00" />
-        </rowset>
-      </row>
-      <row name="Ethereal Dawn" shortName="ED" allianceID="494403294" executorCorpID="836317137" memberCount="956" startDate="2007-07-03 10:08:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="104720424" startDate="2009-01-29 10:28:00" />
-          <row corporationID="154041317" startDate="2007-07-05 02:37:00" />
-          <row corporationID="211665191" startDate="2008-06-13 15:38:00" />
-          <row corporationID="241862414" startDate="2008-03-20 02:29:00" />
-          <row corporationID="272725849" startDate="2009-05-04 03:16:00" />
-          <row corporationID="399545680" startDate="2008-10-18 20:31:00" />
-          <row corporationID="480852040" startDate="2007-07-08 01:39:00" />
-          <row corporationID="542378788" startDate="2009-05-15 23:21:00" />
-          <row corporationID="724710872" startDate="2007-07-03 10:08:00" />
-          <row corporationID="777215291" startDate="2007-07-04 17:37:00" />
-          <row corporationID="785714366" startDate="2008-11-30 22:12:00" />
-          <row corporationID="836317137" startDate="2007-07-04 12:37:00" />
-          <row corporationID="925560368" startDate="2009-01-26 23:20:00" />
-          <row corporationID="960540825" startDate="2007-11-21 01:18:00" />
-          <row corporationID="1245368121" startDate="2008-06-01 23:45:00" />
-          <row corporationID="1552312459" startDate="2009-06-16 07:10:00" />
-          <row corporationID="1634222471" startDate="2009-03-29 22:56:00" />
-          <row corporationID="1847705589" startDate="2008-03-25 13:52:00" />
         </rowset>
       </row>
       <row name="Rebellion Alliance" shortName="-R-" allianceID="521942065" executorCorpID="145450628" memberCount="926" startDate="2008-07-05 00:13:00">
@@ -865,7 +865,19 @@
           <row corporationID="2040021070" startDate="2009-03-25 00:57:00" />
         </rowset>
       </row>
-      <row name="The Council." shortName="OWNED" allianceID="1593530236" executorCorpID="687360647" memberCount="853" startDate="2008-12-02 21:31:00">
+      <row name="Atropos." shortName="DAMN" allianceID="1448299113" executorCorpID="742296741" memberCount="852" startDate="2009-07-09 14:03:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="168762676" startDate="2009-07-18 18:16:00" />
+          <row corporationID="460073143" startDate="2009-07-13 22:58:00" />
+          <row corporationID="668298004" startDate="2009-07-19 16:27:00" />
+          <row corporationID="742296741" startDate="2009-07-09 14:03:00" />
+          <row corporationID="875512489" startDate="2009-07-14 08:58:00" />
+          <row corporationID="1607489183" startDate="2009-08-05 22:07:00" />
+          <row corporationID="1890003269" startDate="2009-07-12 09:52:00" />
+          <row corporationID="2036301324" startDate="2009-08-24 19:40:00" />
+        </rowset>
+      </row>
+      <row name="The Council." shortName="OWNED" allianceID="1593530236" executorCorpID="687360647" memberCount="851" startDate="2008-12-02 21:31:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="103321456" startDate="2009-03-31 19:06:00" />
           <row corporationID="206423962" startDate="2009-03-08 00:24:00" />
@@ -892,18 +904,6 @@
           <row corporationID="1890786604" startDate="2009-06-03 19:00:00" />
           <row corporationID="1946417895" startDate="2009-06-23 22:20:00" />
           <row corporationID="1998878257" startDate="2009-08-17 01:06:00" />
-        </rowset>
-      </row>
-      <row name="Atropos." shortName="DAMN" allianceID="1448299113" executorCorpID="742296741" memberCount="852" startDate="2009-07-09 14:03:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="168762676" startDate="2009-07-18 18:16:00" />
-          <row corporationID="460073143" startDate="2009-07-13 22:58:00" />
-          <row corporationID="668298004" startDate="2009-07-19 16:27:00" />
-          <row corporationID="742296741" startDate="2009-07-09 14:03:00" />
-          <row corporationID="875512489" startDate="2009-07-14 08:58:00" />
-          <row corporationID="1607489183" startDate="2009-08-05 22:07:00" />
-          <row corporationID="1890003269" startDate="2009-07-12 09:52:00" />
-          <row corporationID="2036301324" startDate="2009-08-24 19:40:00" />
         </rowset>
       </row>
       <row name="Stella Polaris." shortName="SPLR" allianceID="1494254776" executorCorpID="417949171" memberCount="849" startDate="2008-05-12 09:44:00">
@@ -1589,7 +1589,7 @@
           <row corporationID="876768667" startDate="2009-08-18 18:15:00" />
         </rowset>
       </row>
-      <row name="THE KLINGONS" shortName="KLING" allianceID="206584088" executorCorpID="105528669" memberCount="544" startDate="2009-06-03 17:23:00">
+      <row name="THE KLINGONS" shortName="KLING" allianceID="206584088" executorCorpID="105528669" memberCount="543" startDate="2009-06-03 17:23:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="105528669" startDate="2009-06-03 17:23:00" />
           <row corporationID="143968112" startDate="2009-07-31 23:54:00" />
@@ -1845,7 +1845,7 @@
           <row corporationID="1670045776" startDate="2008-03-25 17:43:00" />
         </rowset>
       </row>
-      <row name="Fidelas Constans" shortName="FCON" allianceID="1006830534" executorCorpID="1469875756" memberCount="472" startDate="2009-01-30 18:07:00">
+      <row name="Fidelas Constans" shortName="FCON" allianceID="1006830534" executorCorpID="1469875756" memberCount="473" startDate="2009-01-30 18:07:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="722623099" startDate="2009-05-02 21:17:00" />
           <row corporationID="853746728" startDate="2009-05-19 15:37:00" />
@@ -2039,7 +2039,7 @@
           <row corporationID="2005710191" startDate="2008-05-06 21:37:00" />
         </rowset>
       </row>
-      <row name="Imperial Republic Of the North" shortName="IRON" allianceID="295773986" executorCorpID="608439404" memberCount="384" startDate="2005-07-05 01:21:00">
+      <row name="Imperial Republic Of the North" shortName="IRON" allianceID="295773986" executorCorpID="608439404" memberCount="383" startDate="2005-07-05 01:21:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="232862027" startDate="2005-07-06 22:35:00" />
           <row corporationID="277365080" startDate="2008-01-02 14:14:00" />
@@ -2106,7 +2106,7 @@
           <row corporationID="2011509225" startDate="2009-02-13 22:59:00" />
         </rowset>
       </row>
-      <row name="Aeternus." shortName="SPY" allianceID="1006628817" executorCorpID="1924178171" memberCount="370" startDate="2009-03-11 22:06:00">
+      <row name="Aeternus." shortName="SPY" allianceID="1006628817" executorCorpID="1924178171" memberCount="369" startDate="2009-03-11 22:06:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="230816556" startDate="2009-03-13 21:19:00" />
           <row corporationID="338591511" startDate="2009-03-14 10:19:00" />
@@ -2538,15 +2538,6 @@
           <row corporationID="2062179275" startDate="2008-10-24 19:58:00" />
         </rowset>
       </row>
-      <row name="KrautbreaK" shortName="KRAUT" allianceID="398025237" executorCorpID="359310497" memberCount="309" startDate="2008-12-31 23:21:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="152858207" startDate="2009-02-09 22:18:00" />
-          <row corporationID="160174668" startDate="2009-02-08 11:54:00" />
-          <row corporationID="359310497" startDate="2009-01-20 19:42:00" />
-          <row corporationID="483613783" startDate="2009-05-02 15:17:00" />
-          <row corporationID="538004967" startDate="2009-04-21 19:06:00" />
-        </rowset>
-      </row>
       <row name="Scalar Federation" shortName="SCALA" allianceID="204800686" executorCorpID="1515339273" memberCount="309" startDate="2007-08-14 20:24:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="362420889" startDate="2008-07-09 10:33:00" />
@@ -2562,6 +2553,15 @@
           <row corporationID="1607576136" startDate="2009-02-18 22:00:00" />
           <row corporationID="1650842916" startDate="2009-07-09 22:28:00" />
           <row corporationID="1715735630" startDate="2008-05-10 21:53:00" />
+        </rowset>
+      </row>
+      <row name="KrautbreaK" shortName="KRAUT" allianceID="398025237" executorCorpID="359310497" memberCount="307" startDate="2008-12-31 23:21:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="152858207" startDate="2009-02-09 22:18:00" />
+          <row corporationID="160174668" startDate="2009-02-08 11:54:00" />
+          <row corporationID="359310497" startDate="2009-01-20 19:42:00" />
+          <row corporationID="483613783" startDate="2009-05-02 15:17:00" />
+          <row corporationID="538004967" startDate="2009-04-21 19:06:00" />
         </rowset>
       </row>
       <row name="Blade." shortName="-CUT-" allianceID="374464406" executorCorpID="352435456" memberCount="305" startDate="2007-06-24 08:49:00">
@@ -2684,22 +2684,7 @@
           <row corporationID="2014018400" startDate="2009-08-01 02:49:00" />
         </rowset>
       </row>
-      <row name="Eternus Imperium Alliance" shortName="E.I.A" allianceID="295352387" executorCorpID="559074772" memberCount="290" startDate="2008-12-31 16:56:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="147391299" startDate="2009-03-20 04:01:00" />
-          <row corporationID="293957769" startDate="2009-07-28 17:31:00" />
-          <row corporationID="559074772" startDate="2008-12-31 16:56:00" />
-          <row corporationID="1010837138" startDate="2009-05-14 18:27:00" />
-          <row corporationID="1016135119" startDate="2009-05-31 15:07:00" />
-          <row corporationID="1405156301" startDate="2009-03-09 01:01:00" />
-          <row corporationID="1533953705" startDate="2009-07-21 02:59:00" />
-          <row corporationID="1549677837" startDate="2009-07-28 02:52:00" />
-          <row corporationID="1700621754" startDate="2009-07-11 16:52:00" />
-          <row corporationID="1703094574" startDate="2009-01-01 17:42:00" />
-          <row corporationID="1967421007" startDate="2009-08-07 05:24:00" />
-        </rowset>
-      </row>
-      <row name="Freelancer Coalition" shortName="FREE" allianceID="1259365112" executorCorpID="678989858" memberCount="289" startDate="2007-08-22 18:40:00">
+      <row name="Freelancer Coalition" shortName="FREE" allianceID="1259365112" executorCorpID="678989858" memberCount="290" startDate="2007-08-22 18:40:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="485695232" startDate="2009-04-16 21:10:00" />
           <row corporationID="541897307" startDate="2009-04-30 21:53:00" />
@@ -2717,6 +2702,21 @@
           <row corporationID="1862104844" startDate="2008-12-17 21:56:00" />
           <row corporationID="1948314816" startDate="2009-05-05 15:27:00" />
           <row corporationID="2056970304" startDate="2009-08-04 14:00:00" />
+        </rowset>
+      </row>
+      <row name="Eternus Imperium Alliance" shortName="E.I.A" allianceID="295352387" executorCorpID="559074772" memberCount="290" startDate="2008-12-31 16:56:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="147391299" startDate="2009-03-20 04:01:00" />
+          <row corporationID="293957769" startDate="2009-07-28 17:31:00" />
+          <row corporationID="559074772" startDate="2008-12-31 16:56:00" />
+          <row corporationID="1010837138" startDate="2009-05-14 18:27:00" />
+          <row corporationID="1016135119" startDate="2009-05-31 15:07:00" />
+          <row corporationID="1405156301" startDate="2009-03-09 01:01:00" />
+          <row corporationID="1533953705" startDate="2009-07-21 02:59:00" />
+          <row corporationID="1549677837" startDate="2009-07-28 02:52:00" />
+          <row corporationID="1700621754" startDate="2009-07-11 16:52:00" />
+          <row corporationID="1703094574" startDate="2009-01-01 17:42:00" />
+          <row corporationID="1967421007" startDate="2009-08-07 05:24:00" />
         </rowset>
       </row>
       <row name="Lazy is our middle name" shortName="LA.ZY" allianceID="287958380" executorCorpID="448317330" memberCount="288" startDate="2007-05-19 23:46:00">
@@ -2753,7 +2753,7 @@
           <row corporationID="1607513882" startDate="2009-08-18 02:25:00" />
         </rowset>
       </row>
-      <row name="Off Alliance" shortName="OFF" allianceID="1873943265" executorCorpID="851917707" memberCount="286" startDate="2009-02-17 10:07:00">
+      <row name="Off Alliance" shortName="OFF" allianceID="1873943265" executorCorpID="851917707" memberCount="287" startDate="2009-02-17 10:07:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="114913545" startDate="2009-08-05 23:07:00" />
           <row corporationID="582865223" startDate="2009-07-27 18:01:00" />
@@ -2961,18 +2961,6 @@
           <row corporationID="2039460221" startDate="2008-06-19 18:43:00" />
         </rowset>
       </row>
-      <row name="Insane Asylum" shortName="CRAZY" allianceID="1420410057" executorCorpID="795045209" memberCount="262" startDate="2009-03-16 21:25:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="643512394" startDate="2009-08-16 21:08:00" />
-          <row corporationID="689948577" startDate="2009-08-05 20:41:00" />
-          <row corporationID="795045209" startDate="2009-03-16 21:25:00" />
-          <row corporationID="840282094" startDate="2009-03-21 17:19:00" />
-          <row corporationID="973171834" startDate="2009-05-07 20:33:00" />
-          <row corporationID="1186053782" startDate="2009-08-20 22:11:00" />
-          <row corporationID="1223982003" startDate="2009-06-22 16:11:00" />
-          <row corporationID="1796034529" startDate="2009-05-23 00:23:00" />
-        </rowset>
-      </row>
       <row name="Burning Horizons" shortName="BURN" allianceID="818296766" executorCorpID="911423804" memberCount="261" startDate="2008-05-10 22:44:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="220600424" startDate="2009-03-23 19:50:00" />
@@ -2998,6 +2986,18 @@
           <row corporationID="1619235012" startDate="2009-06-18 03:14:00" />
           <row corporationID="1647215268" startDate="2009-03-14 23:10:00" />
           <row corporationID="2050944115" startDate="2009-06-09 00:28:00" />
+        </rowset>
+      </row>
+      <row name="Insane Asylum" shortName="CRAZY" allianceID="1420410057" executorCorpID="795045209" memberCount="261" startDate="2009-03-16 21:25:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="643512394" startDate="2009-08-16 21:08:00" />
+          <row corporationID="689948577" startDate="2009-08-05 20:41:00" />
+          <row corporationID="795045209" startDate="2009-03-16 21:25:00" />
+          <row corporationID="840282094" startDate="2009-03-21 17:19:00" />
+          <row corporationID="973171834" startDate="2009-05-07 20:33:00" />
+          <row corporationID="1186053782" startDate="2009-08-20 22:11:00" />
+          <row corporationID="1223982003" startDate="2009-06-22 16:11:00" />
+          <row corporationID="1796034529" startDate="2009-05-23 00:23:00" />
         </rowset>
       </row>
       <row name="Sodalitas XX" shortName="0RDR" allianceID="1208650174" executorCorpID="649488194" memberCount="258" startDate="2009-05-08 00:55:00">
@@ -3353,7 +3353,7 @@
           <row corporationID="2002648787" startDate="2009-06-27 14:28:00" />
         </rowset>
       </row>
-      <row name="Psychotic Tendencies." shortName="TISHU" allianceID="864733958" executorCorpID="170486887" memberCount="228" startDate="2008-10-29 01:54:00">
+      <row name="Psychotic Tendencies." shortName="TISHU" allianceID="864733958" executorCorpID="170486887" memberCount="229" startDate="2008-10-29 01:54:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="130439247" startDate="2009-06-29 10:35:00" />
           <row corporationID="170486887" startDate="2008-10-29 01:54:00" />
@@ -3411,28 +3411,7 @@
           <row corporationID="1289024382" startDate="2008-08-07 00:15:00" />
         </rowset>
       </row>
-      <row name="Rote Kapelle" shortName="STUGH" allianceID="927292903" executorCorpID="1559900816" memberCount="222" startDate="2008-10-30 06:41:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="332140020" startDate="2009-07-05 21:26:00" />
-          <row corporationID="340887332" startDate="2008-10-31 08:28:00" />
-          <row corporationID="955035993" startDate="2008-11-02 06:57:00" />
-          <row corporationID="981901814" startDate="2009-01-16 06:36:00" />
-          <row corporationID="983422854" startDate="2009-07-21 09:32:00" />
-          <row corporationID="1061594666" startDate="2009-03-25 03:10:00" />
-          <row corporationID="1491319733" startDate="2008-10-30 06:41:00" />
-          <row corporationID="1559900816" startDate="2009-06-15 14:31:00" />
-          <row corporationID="1870823430" startDate="2009-05-30 07:50:00" />
-        </rowset>
-      </row>
-      <row name="ALPHA-0MEGA" shortName="OMG 1" allianceID="1751502156" executorCorpID="612682401" memberCount="222" startDate="2009-07-02 00:26:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="339426089" startDate="2009-07-03 01:27:00" />
-          <row corporationID="612682401" startDate="2009-07-02 00:26:00" />
-          <row corporationID="674063951" startDate="2009-07-03 01:27:00" />
-          <row corporationID="1537728698" startDate="2009-07-05 02:34:00" />
-        </rowset>
-      </row>
-      <row name="Unorthodox Solution" shortName="UNSO" allianceID="1110172951" executorCorpID="1242048581" memberCount="221" startDate="2009-05-29 18:40:00">
+      <row name="Unorthodox Solution" shortName="UNSO" allianceID="1110172951" executorCorpID="1242048581" memberCount="223" startDate="2009-05-29 18:40:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="235509747" startDate="2009-08-02 08:00:00" />
           <row corporationID="267278529" startDate="2009-06-14 10:02:00" />
@@ -3444,6 +3423,27 @@
           <row corporationID="1242048581" startDate="2009-05-29 18:40:00" />
           <row corporationID="1824466056" startDate="2009-06-20 10:51:00" />
           <row corporationID="2002350124" startDate="2009-06-22 19:52:00" />
+        </rowset>
+      </row>
+      <row name="ALPHA-0MEGA" shortName="OMG 1" allianceID="1751502156" executorCorpID="612682401" memberCount="222" startDate="2009-07-02 00:26:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="339426089" startDate="2009-07-03 01:27:00" />
+          <row corporationID="612682401" startDate="2009-07-02 00:26:00" />
+          <row corporationID="674063951" startDate="2009-07-03 01:27:00" />
+          <row corporationID="1537728698" startDate="2009-07-05 02:34:00" />
+        </rowset>
+      </row>
+      <row name="Rote Kapelle" shortName="STUGH" allianceID="927292903" executorCorpID="1559900816" memberCount="222" startDate="2008-10-30 06:41:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="332140020" startDate="2009-07-05 21:26:00" />
+          <row corporationID="340887332" startDate="2008-10-31 08:28:00" />
+          <row corporationID="955035993" startDate="2008-11-02 06:57:00" />
+          <row corporationID="981901814" startDate="2009-01-16 06:36:00" />
+          <row corporationID="983422854" startDate="2009-07-21 09:32:00" />
+          <row corporationID="1061594666" startDate="2009-03-25 03:10:00" />
+          <row corporationID="1491319733" startDate="2008-10-30 06:41:00" />
+          <row corporationID="1559900816" startDate="2009-06-15 14:31:00" />
+          <row corporationID="1870823430" startDate="2009-05-30 07:50:00" />
         </rowset>
       </row>
       <row name="Distant Drums" shortName="DD" allianceID="373550403" executorCorpID="160515225" memberCount="221" startDate="2009-03-13 04:02:00">
@@ -3485,13 +3485,7 @@
           <row corporationID="2045464374" startDate="2009-07-27 01:55:00" />
         </rowset>
       </row>
-      <row name="BLOOD EMPIRE" shortName="BLOOD" allianceID="516336750" executorCorpID="390975422" memberCount="217" startDate="2008-02-13 19:38:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="134101698" startDate="2009-04-30 16:04:00" />
-          <row corporationID="390975422" startDate="2008-02-13 19:38:00" />
-        </rowset>
-      </row>
-      <row name="Rally Against Evil" shortName="RALLY" allianceID="1865308994" executorCorpID="1703471676" memberCount="216" startDate="2009-06-15 17:21:00">
+      <row name="Rally Against Evil" shortName="RALLY" allianceID="1865308994" executorCorpID="1703471676" memberCount="217" startDate="2009-06-15 17:21:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="321300302" startDate="2009-08-01 23:27:00" />
           <row corporationID="562573455" startDate="2009-06-17 10:27:00" />
@@ -3502,6 +3496,12 @@
           <row corporationID="1703471676" startDate="2009-06-16 18:27:00" />
           <row corporationID="1866162919" startDate="2009-06-20 21:25:00" />
           <row corporationID="1867379703" startDate="2009-06-16 17:27:00" />
+        </rowset>
+      </row>
+      <row name="BLOOD EMPIRE" shortName="BLOOD" allianceID="516336750" executorCorpID="390975422" memberCount="217" startDate="2008-02-13 19:38:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="134101698" startDate="2009-04-30 16:04:00" />
+          <row corporationID="390975422" startDate="2008-02-13 19:38:00" />
         </rowset>
       </row>
       <row name="The Ascendent Dominion" shortName="TAD" allianceID="1734890877" executorCorpID="1241659917" memberCount="215" startDate="2008-03-04 23:32:00">
@@ -3865,33 +3865,6 @@
           <row corporationID="1840924976" startDate="2008-03-11 04:59:00" />
         </rowset>
       </row>
-      <row name="Underworld Empire" shortName="UNDER" allianceID="1942708220" executorCorpID="257819216" memberCount="193" startDate="2009-05-01 10:18:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="113442713" startDate="2009-05-25 17:00:00" />
-          <row corporationID="194340592" startDate="2009-06-09 07:28:00" />
-          <row corporationID="257819216" startDate="2009-07-20 15:49:00" />
-          <row corporationID="336710425" startDate="2009-05-27 09:22:00" />
-          <row corporationID="494253826" startDate="2009-08-18 23:57:00" />
-          <row corporationID="511555684" startDate="2009-05-06 15:53:00" />
-          <row corporationID="698015023" startDate="2009-05-30 15:14:00" />
-          <row corporationID="698320364" startDate="2009-08-10 14:27:00" />
-          <row corporationID="740089032" startDate="2009-08-07 18:34:00" />
-          <row corporationID="834576542" startDate="2009-07-05 21:56:00" />
-          <row corporationID="1054903966" startDate="2009-05-03 23:37:00" />
-          <row corporationID="1100181728" startDate="2009-06-07 19:51:00" />
-          <row corporationID="1102466472" startDate="2009-07-04 18:15:00" />
-          <row corporationID="1111037837" startDate="2009-06-25 09:43:00" />
-          <row corporationID="1182853902" startDate="2009-07-07 15:57:00" />
-          <row corporationID="1208419221" startDate="2009-05-25 14:00:00" />
-          <row corporationID="1213269729" startDate="2009-05-01 10:18:00" />
-          <row corporationID="1272992943" startDate="2009-06-04 09:34:00" />
-          <row corporationID="1332845775" startDate="2009-05-03 23:37:00" />
-          <row corporationID="1379468779" startDate="2009-06-15 17:10:00" />
-          <row corporationID="1638819385" startDate="2009-06-27 23:28:00" />
-          <row corporationID="1891212632" startDate="2009-08-06 16:28:00" />
-          <row corporationID="2023407821" startDate="2009-06-25 21:19:00" />
-        </rowset>
-      </row>
       <row name="Brotherhood of Starbridge" shortName=".STAR" allianceID="1606329389" executorCorpID="1585721900" memberCount="193" startDate="2008-09-13 13:24:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="137658076" startDate="2009-07-16 18:26:00" />
@@ -3941,6 +3914,33 @@
           <row corporationID="1607543602" startDate="2009-06-16 14:27:00" />
           <row corporationID="1785100807" startDate="2009-08-09 14:43:00" />
           <row corporationID="2058641537" startDate="2009-07-18 09:53:00" />
+        </rowset>
+      </row>
+      <row name="Underworld Empire" shortName="UNDER" allianceID="1942708220" executorCorpID="257819216" memberCount="192" startDate="2009-05-01 10:18:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="113442713" startDate="2009-05-25 17:00:00" />
+          <row corporationID="194340592" startDate="2009-06-09 07:28:00" />
+          <row corporationID="257819216" startDate="2009-07-20 15:49:00" />
+          <row corporationID="336710425" startDate="2009-05-27 09:22:00" />
+          <row corporationID="494253826" startDate="2009-08-18 23:57:00" />
+          <row corporationID="511555684" startDate="2009-05-06 15:53:00" />
+          <row corporationID="698015023" startDate="2009-05-30 15:14:00" />
+          <row corporationID="698320364" startDate="2009-08-10 14:27:00" />
+          <row corporationID="740089032" startDate="2009-08-07 18:34:00" />
+          <row corporationID="834576542" startDate="2009-07-05 21:56:00" />
+          <row corporationID="1054903966" startDate="2009-05-03 23:37:00" />
+          <row corporationID="1100181728" startDate="2009-06-07 19:51:00" />
+          <row corporationID="1102466472" startDate="2009-07-04 18:15:00" />
+          <row corporationID="1111037837" startDate="2009-06-25 09:43:00" />
+          <row corporationID="1182853902" startDate="2009-07-07 15:57:00" />
+          <row corporationID="1208419221" startDate="2009-05-25 14:00:00" />
+          <row corporationID="1213269729" startDate="2009-05-01 10:18:00" />
+          <row corporationID="1272992943" startDate="2009-06-04 09:34:00" />
+          <row corporationID="1332845775" startDate="2009-05-03 23:37:00" />
+          <row corporationID="1379468779" startDate="2009-06-15 17:10:00" />
+          <row corporationID="1638819385" startDate="2009-06-27 23:28:00" />
+          <row corporationID="1891212632" startDate="2009-08-06 16:28:00" />
+          <row corporationID="2023407821" startDate="2009-06-25 21:19:00" />
         </rowset>
       </row>
       <row name="Equinox Alliance" shortName="EQNX" allianceID="1417406377" executorCorpID="1519148881" memberCount="192" startDate="2009-03-20 18:52:00">
@@ -4949,6 +4949,13 @@
           <row corporationID="1852571740" startDate="2009-07-14 17:35:00" />
         </rowset>
       </row>
+      <row name="Destined For Glory" shortName="DFG" allianceID="1590141027" executorCorpID="1985423858" memberCount="141" startDate="2009-04-11 08:14:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="140807253" startDate="2009-04-22 23:22:00" />
+          <row corporationID="1124849708" startDate="2009-04-12 09:01:00" />
+          <row corporationID="1985423858" startDate="2009-04-11 08:14:00" />
+        </rowset>
+      </row>
       <row name="Out of Control A" shortName="OUT O" allianceID="1219414157" executorCorpID="2022001281" memberCount="141" startDate="2008-04-05 17:28:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="121935117" startDate="2008-04-14 13:28:00" />
@@ -4960,13 +4967,6 @@
           <row corporationID="1759145607" startDate="2009-01-06 17:47:00" />
           <row corporationID="1832135738" startDate="2008-04-14 13:28:00" />
           <row corporationID="2022001281" startDate="2008-04-05 17:28:00" />
-        </rowset>
-      </row>
-      <row name="Destined For Glory" shortName="DFG" allianceID="1590141027" executorCorpID="1985423858" memberCount="141" startDate="2009-04-11 08:14:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="140807253" startDate="2009-04-22 23:22:00" />
-          <row corporationID="1124849708" startDate="2009-04-12 09:01:00" />
-          <row corporationID="1985423858" startDate="2009-04-11 08:14:00" />
         </rowset>
       </row>
       <row name="Forged Dominion" shortName="F-D" allianceID="444404720" executorCorpID="1748964890" memberCount="141" startDate="2008-03-15 23:36:00">
@@ -5022,15 +5022,6 @@
           <row corporationID="1978046277" startDate="2009-06-27 23:14:00" />
         </rowset>
       </row>
-      <row name="Celestial Shadows" shortName="C-S" allianceID="1419070955" executorCorpID="1713872240" memberCount="139" startDate="2009-07-23 00:25:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="623032655" startDate="2009-08-03 01:20:00" />
-          <row corporationID="716308349" startDate="2009-07-25 12:22:00" />
-          <row corporationID="904581891" startDate="2009-07-24 00:31:00" />
-          <row corporationID="1237139121" startDate="2009-07-26 13:56:00" />
-          <row corporationID="1713872240" startDate="2009-07-23 00:25:00" />
-        </rowset>
-      </row>
       <row name="United Royal Dreams" shortName="URD" allianceID="1424550893" executorCorpID="1753804517" memberCount="139" startDate="2008-09-26 17:01:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="187285125" startDate="2008-10-03 19:26:00" />
@@ -5047,6 +5038,15 @@
           <row corporationID="1426824909" startDate="2009-06-11 20:58:00" />
           <row corporationID="1577430599" startDate="2008-10-03 19:26:00" />
           <row corporationID="1753804517" startDate="2008-09-27 18:07:00" />
+        </rowset>
+      </row>
+      <row name="Celestial Shadows" shortName="C-S" allianceID="1419070955" executorCorpID="1713872240" memberCount="139" startDate="2009-07-23 00:25:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="623032655" startDate="2009-08-03 01:20:00" />
+          <row corporationID="716308349" startDate="2009-07-25 12:22:00" />
+          <row corporationID="904581891" startDate="2009-07-24 00:31:00" />
+          <row corporationID="1237139121" startDate="2009-07-26 13:56:00" />
+          <row corporationID="1713872240" startDate="2009-07-23 00:25:00" />
         </rowset>
       </row>
       <row name="The Landsraad League" shortName="TRAAD" allianceID="305585954" executorCorpID="1411828692" memberCount="139" startDate="2009-05-26 03:32:00">
@@ -5267,26 +5267,35 @@
           <row corporationID="1299368305" startDate="2009-01-24 01:32:00" />
         </rowset>
       </row>
+      <row name="Hedonistic Imperative" shortName="RELAX" allianceID="906957604" executorCorpID="236288983" memberCount="133" startDate="2007-01-14 17:44:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="108951632" startDate="2008-11-05 01:41:00" />
+          <row corporationID="156347145" startDate="2009-06-18 23:55:00" />
+          <row corporationID="236288983" startDate="2007-01-14 17:44:00" />
+          <row corporationID="822852010" startDate="2008-10-30 00:15:00" />
+        </rowset>
+      </row>
       <row name="Beyond Virginity" shortName="BYVI" allianceID="540936894" executorCorpID="392033699" memberCount="133" startDate="2009-08-18 03:15:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="392033699" startDate="2009-08-18 03:15:00" />
           <row corporationID="430577669" startDate="2009-08-22 06:04:00" />
         </rowset>
       </row>
-      <row name="Anuran Origin" shortName="RIBIT" allianceID="197490338" executorCorpID="149149547" memberCount="132" startDate="2009-08-07 14:47:00">
+      <row name="Anuran Origin" shortName="RIBIT" allianceID="197490338" executorCorpID="149149547" memberCount="133" startDate="2009-08-07 14:47:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="149149547" startDate="2009-08-07 14:47:00" />
           <row corporationID="254982717" startDate="2009-08-25 10:31:00" />
           <row corporationID="1494245064" startDate="2009-08-17 17:20:00" />
           <row corporationID="2067562535" startDate="2009-08-16 16:08:00" />
+          <row corporationID="2082528325" startDate="2009-08-25 11:54:00" />
         </rowset>
       </row>
-      <row name="Hedonistic Imperative" shortName="RELAX" allianceID="906957604" executorCorpID="236288983" memberCount="132" startDate="2007-01-14 17:44:00">
+      <row name="The Star Fraction" shortName="-SF-" allianceID="1439416485" executorCorpID="176404671" memberCount="132" startDate="2005-01-25 00:11:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="108951632" startDate="2008-11-05 01:41:00" />
-          <row corporationID="156347145" startDate="2009-06-18 23:55:00" />
-          <row corporationID="236288983" startDate="2007-01-14 17:44:00" />
-          <row corporationID="822852010" startDate="2008-10-30 00:15:00" />
+          <row corporationID="176404671" startDate="2005-11-03 14:40:00" />
+          <row corporationID="281154994" startDate="2008-06-01 00:28:00" />
+          <row corporationID="732554608" startDate="2009-04-02 21:19:00" />
+          <row corporationID="1490544374" startDate="2009-07-12 18:16:00" />
         </rowset>
       </row>
       <row name="Ventures" shortName="-V-" allianceID="1948222564" executorCorpID="487414583" memberCount="132" startDate="2009-06-04 18:51:00">
@@ -5299,14 +5308,6 @@
           <row corporationID="1388734985" startDate="2009-06-05 19:17:00" />
           <row corporationID="1588199497" startDate="2009-07-05 00:15:00" />
           <row corporationID="1915472855" startDate="2009-07-22 03:01:00" />
-        </rowset>
-      </row>
-      <row name="The Star Fraction" shortName="-SF-" allianceID="1439416485" executorCorpID="176404671" memberCount="132" startDate="2005-01-25 00:11:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="176404671" startDate="2005-11-03 14:40:00" />
-          <row corporationID="281154994" startDate="2008-06-01 00:28:00" />
-          <row corporationID="732554608" startDate="2009-04-02 21:19:00" />
-          <row corporationID="1490544374" startDate="2009-07-12 18:16:00" />
         </rowset>
       </row>
       <row name="Avarice." shortName="FAIL" allianceID="1508910501" executorCorpID="1303093872" memberCount="131" startDate="2009-01-21 22:57:00">
@@ -5375,20 +5376,6 @@
           <row corporationID="1646079697" startDate="2009-06-16 21:37:00" />
         </rowset>
       </row>
-      <row name="Blood.Bound" shortName="B.B" allianceID="1909070710" executorCorpID="1978279508" memberCount="129" startDate="2009-06-15 19:00:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="303791464" startDate="2009-06-20 23:25:00" />
-          <row corporationID="462219970" startDate="2009-06-24 19:43:00" />
-          <row corporationID="849120571" startDate="2009-06-17 22:42:00" />
-          <row corporationID="1043312815" startDate="2009-06-18 20:06:00" />
-          <row corporationID="1211441516" startDate="2009-06-30 01:28:00" />
-          <row corporationID="1249484165" startDate="2009-06-22 17:31:00" />
-          <row corporationID="1484761460" startDate="2009-06-18 10:42:00" />
-          <row corporationID="1511706875" startDate="2009-06-20 23:25:00" />
-          <row corporationID="1978279508" startDate="2009-06-15 19:00:00" />
-          <row corporationID="2019863795" startDate="2009-08-23 08:28:00" />
-        </rowset>
-      </row>
       <row name="Talon Alliance" shortName="TALON" allianceID="1688986719" executorCorpID="1561171004" memberCount="129" startDate="2007-11-02 13:18:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="200577849" startDate="2009-05-16 22:38:00" />
@@ -5403,6 +5390,20 @@
           <row corporationID="1314712139" startDate="2009-06-30 22:52:00" />
           <row corporationID="1435396910" startDate="2009-06-08 13:05:00" />
           <row corporationID="1561171004" startDate="2008-02-12 09:30:00" />
+        </rowset>
+      </row>
+      <row name="Blood.Bound" shortName="B.B" allianceID="1909070710" executorCorpID="1978279508" memberCount="129" startDate="2009-06-15 19:00:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="303791464" startDate="2009-06-20 23:25:00" />
+          <row corporationID="462219970" startDate="2009-06-24 19:43:00" />
+          <row corporationID="849120571" startDate="2009-06-17 22:42:00" />
+          <row corporationID="1043312815" startDate="2009-06-18 20:06:00" />
+          <row corporationID="1211441516" startDate="2009-06-30 01:28:00" />
+          <row corporationID="1249484165" startDate="2009-06-22 17:31:00" />
+          <row corporationID="1484761460" startDate="2009-06-18 10:42:00" />
+          <row corporationID="1511706875" startDate="2009-06-20 23:25:00" />
+          <row corporationID="1978279508" startDate="2009-06-15 19:00:00" />
+          <row corporationID="2019863795" startDate="2009-08-23 08:28:00" />
         </rowset>
       </row>
       <row name="eXsecratio Alliance" shortName="-EXS-" allianceID="361107026" executorCorpID="872775850" memberCount="128" startDate="2009-07-18 13:45:00">
@@ -5454,18 +5455,6 @@
           <row corporationID="839189836" startDate="2009-08-10 13:12:00" />
         </rowset>
       </row>
-      <row name="Space Technologies" shortName="S.T." allianceID="1454825964" executorCorpID="1452540896" memberCount="126" startDate="2008-07-07 22:27:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="125172147" startDate="2009-06-19 22:03:00" />
-          <row corporationID="317670358" startDate="2008-10-09 18:18:00" />
-          <row corporationID="673420460" startDate="2009-07-31 09:36:00" />
-          <row corporationID="1113969804" startDate="2009-07-22 19:26:00" />
-          <row corporationID="1147148195" startDate="2009-06-16 18:39:00" />
-          <row corporationID="1452540896" startDate="2008-07-07 22:27:00" />
-          <row corporationID="1731882304" startDate="2009-06-16 22:40:00" />
-          <row corporationID="1803537467" startDate="2009-07-16 21:22:00" />
-        </rowset>
-      </row>
       <row name="Black Flag Alliance" shortName="BLACK" allianceID="241026340" executorCorpID="826602062" memberCount="125" startDate="2006-06-26 18:22:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="170127230" startDate="2007-05-21 14:49:00" />
@@ -5489,14 +5478,16 @@
           <row corporationID="1812622441" startDate="2009-05-30 22:40:00" />
         </rowset>
       </row>
-      <row name="The Order of New Eden" shortName="ONE" allianceID="442570932" executorCorpID="777170850" memberCount="124" startDate="2008-05-07 02:12:00">
+      <row name="Space Technologies" shortName="S.T." allianceID="1454825964" executorCorpID="1452540896" memberCount="125" startDate="2008-07-07 22:27:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="777170850" startDate="2008-05-08 02:54:00" />
-          <row corporationID="1217093961" startDate="2008-09-29 02:30:00" />
-          <row corporationID="1298710282" startDate="2009-06-05 02:56:00" />
-          <row corporationID="1360027176" startDate="2009-01-13 03:22:00" />
-          <row corporationID="1442705207" startDate="2009-02-11 06:40:00" />
-          <row corporationID="1665585760" startDate="2009-07-13 19:29:00" />
+          <row corporationID="125172147" startDate="2009-06-19 22:03:00" />
+          <row corporationID="317670358" startDate="2008-10-09 18:18:00" />
+          <row corporationID="673420460" startDate="2009-07-31 09:36:00" />
+          <row corporationID="1113969804" startDate="2009-07-22 19:26:00" />
+          <row corporationID="1147148195" startDate="2009-06-16 18:39:00" />
+          <row corporationID="1452540896" startDate="2008-07-07 22:27:00" />
+          <row corporationID="1731882304" startDate="2009-06-16 22:40:00" />
+          <row corporationID="1803537467" startDate="2009-07-16 21:22:00" />
         </rowset>
       </row>
       <row name="Lone Star Partners" shortName="LSP" allianceID="1932631400" executorCorpID="1911154954" memberCount="124" startDate="2009-07-12 00:53:00">
@@ -5506,12 +5497,14 @@
           <row corporationID="1911154954" startDate="2009-07-12 00:53:00" />
         </rowset>
       </row>
-      <row name="New Eve Mining manufacturing Organisation" shortName="NEMO" allianceID="1708469380" executorCorpID="1286746158" memberCount="123" startDate="2008-03-03 16:48:00">
+      <row name="The Order of New Eden" shortName="ONE" allianceID="442570932" executorCorpID="777170850" memberCount="124" startDate="2008-05-07 02:12:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="744437788" startDate="2008-03-03 16:48:00" />
-          <row corporationID="1286746158" startDate="2008-08-02 10:13:00" />
-          <row corporationID="1320583694" startDate="2008-03-04 17:16:00" />
-          <row corporationID="1821821838" startDate="2008-03-11 23:27:00" />
+          <row corporationID="777170850" startDate="2008-05-08 02:54:00" />
+          <row corporationID="1217093961" startDate="2008-09-29 02:30:00" />
+          <row corporationID="1298710282" startDate="2009-06-05 02:56:00" />
+          <row corporationID="1360027176" startDate="2009-01-13 03:22:00" />
+          <row corporationID="1442705207" startDate="2009-02-11 06:40:00" />
+          <row corporationID="1665585760" startDate="2009-07-13 19:29:00" />
         </rowset>
       </row>
       <row name="Abundance Alliance" shortName="ABND" allianceID="311230990" executorCorpID="1202698268" memberCount="123" startDate="2009-05-14 18:51:00">
@@ -5527,6 +5520,14 @@
           <row corporationID="1266204881" startDate="2009-01-31 22:42:00" />
           <row corporationID="1970670031" startDate="2009-06-04 19:56:00" />
           <row corporationID="2040681336" startDate="2009-04-25 06:31:00" />
+        </rowset>
+      </row>
+      <row name="New Eve Mining manufacturing Organisation" shortName="NEMO" allianceID="1708469380" executorCorpID="1286746158" memberCount="123" startDate="2008-03-03 16:48:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="744437788" startDate="2008-03-03 16:48:00" />
+          <row corporationID="1286746158" startDate="2008-08-02 10:13:00" />
+          <row corporationID="1320583694" startDate="2008-03-04 17:16:00" />
+          <row corporationID="1821821838" startDate="2008-03-11 23:27:00" />
         </rowset>
       </row>
       <row name="Ethereal Advancement Coalition" shortName="ETHER" allianceID="512745512" executorCorpID="132203890" memberCount="122" startDate="2009-02-21 23:00:00">
@@ -6093,12 +6094,6 @@
           <row corporationID="1835133563" startDate="2009-08-17 19:41:00" />
         </rowset>
       </row>
-      <row name="Une Pour Tous" shortName="UPT" allianceID="1503641695" executorCorpID="1579076551" memberCount="105" startDate="2009-08-21 13:50:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="652217549" startDate="2009-08-23 17:16:00" />
-          <row corporationID="1579076551" startDate="2009-08-21 13:50:00" />
-        </rowset>
-      </row>
       <row name="World Allegiance of The Hunt" shortName="WRATH" allianceID="1264419820" executorCorpID="1407972435" memberCount="104" startDate="2008-10-01 16:24:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="145966567" startDate="2008-10-22 21:07:00" />
@@ -6106,6 +6101,12 @@
           <row corporationID="1407972435" startDate="2008-10-01 16:24:00" />
           <row corporationID="1723752934" startDate="2009-01-19 06:14:00" />
           <row corporationID="1810713079" startDate="2008-10-02 17:33:00" />
+        </rowset>
+      </row>
+      <row name="Une Pour Tous" shortName="UPT" allianceID="1503641695" executorCorpID="1579076551" memberCount="104" startDate="2009-08-21 13:50:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="652217549" startDate="2009-08-23 17:16:00" />
+          <row corporationID="1579076551" startDate="2009-08-21 13:50:00" />
         </rowset>
       </row>
       <row name="Aspire One" shortName="AS.1" allianceID="1867575283" executorCorpID="1735329851" memberCount="104" startDate="2009-07-10 22:03:00">
@@ -6384,14 +6385,6 @@
           <row corporationID="1939721298" startDate="2009-02-21 22:46:00" />
         </rowset>
       </row>
-      <row name="Laconian Syndicate" shortName="LACON" allianceID="1809469516" executorCorpID="491511216" memberCount="97" startDate="2009-04-18 19:23:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="336216112" startDate="2009-05-19 18:54:00" />
-          <row corporationID="491511216" startDate="2009-04-18 19:23:00" />
-          <row corporationID="1130745926" startDate="2009-04-29 19:51:00" />
-          <row corporationID="1707324539" startDate="2009-04-19 19:55:00" />
-        </rowset>
-      </row>
       <row name="United Norwegian Corporations" shortName="NORGE" allianceID="1906961513" executorCorpID="1870031882" memberCount="97" startDate="2009-02-18 20:30:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="661398083" startDate="2009-05-22 19:32:00" />
@@ -6406,12 +6399,12 @@
           <row corporationID="1955578567" startDate="2009-08-22 18:33:00" />
         </rowset>
       </row>
-      <row name="Dominatus Atrum Mortis" shortName="DAM" allianceID="1873258577" executorCorpID="1852552137" memberCount="96" startDate="2009-03-26 04:28:00">
+      <row name="Laconian Syndicate" shortName="LACON" allianceID="1809469516" executorCorpID="491511216" memberCount="97" startDate="2009-04-18 19:23:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1072785895" startDate="2009-06-22 19:11:00" />
-          <row corporationID="1852552137" startDate="2009-06-01 23:39:00" />
-          <row corporationID="1884553380" startDate="2009-03-28 02:04:00" />
-          <row corporationID="1998861090" startDate="2009-08-25 01:30:00" />
+          <row corporationID="336216112" startDate="2009-05-19 18:54:00" />
+          <row corporationID="491511216" startDate="2009-04-18 19:23:00" />
+          <row corporationID="1130745926" startDate="2009-04-29 19:51:00" />
+          <row corporationID="1707324539" startDate="2009-04-19 19:55:00" />
         </rowset>
       </row>
       <row name="Imperial Crimson Legion" shortName="ICL" allianceID="1864059391" executorCorpID="683894224" memberCount="96" startDate="2009-06-01 03:29:00">
@@ -6426,6 +6419,14 @@
           <row corporationID="1680418248" startDate="2009-06-15 02:44:00" />
           <row corporationID="1867712345" startDate="2009-06-03 05:51:00" />
           <row corporationID="1944295310" startDate="2009-06-02 04:45:00" />
+        </rowset>
+      </row>
+      <row name="Dominatus Atrum Mortis" shortName="DAM" allianceID="1873258577" executorCorpID="1852552137" memberCount="96" startDate="2009-03-26 04:28:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1072785895" startDate="2009-06-22 19:11:00" />
+          <row corporationID="1852552137" startDate="2009-06-01 23:39:00" />
+          <row corporationID="1884553380" startDate="2009-03-28 02:04:00" />
+          <row corporationID="1998861090" startDate="2009-08-25 01:30:00" />
         </rowset>
       </row>
       <row name="CYBERDYNE ALLIANCE" shortName="CYBER" allianceID="1680431609" executorCorpID="818158640" memberCount="96" startDate="2009-06-30 18:17:00">
@@ -6648,15 +6649,6 @@
           <row corporationID="2059828284" startDate="2009-06-26 19:02:00" />
         </rowset>
       </row>
-      <row name="In Tea We Trust" shortName="TLEAF" allianceID="1567141329" executorCorpID="836504582" memberCount="92" startDate="2009-07-09 22:38:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="761359503" startDate="2009-07-10 23:03:00" />
-          <row corporationID="776134876" startDate="2009-08-19 17:22:00" />
-          <row corporationID="836504582" startDate="2009-07-09 22:38:00" />
-          <row corporationID="848836642" startDate="2009-08-11 22:35:00" />
-          <row corporationID="1211449191" startDate="2009-07-10 23:03:00" />
-        </rowset>
-      </row>
       <row name="Stellar Union" shortName="SU" allianceID="1270987524" executorCorpID="899395170" memberCount="92" startDate="2008-11-09 12:54:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="787420229" startDate="2008-12-12 00:24:00" />
@@ -6669,6 +6661,15 @@
           <row corporationID="1276607602" startDate="2009-06-13 01:50:00" />
           <row corporationID="1297662776" startDate="2009-05-18 16:08:00" />
           <row corporationID="1365499685" startDate="2009-08-24 23:10:00" />
+        </rowset>
+      </row>
+      <row name="In Tea We Trust" shortName="TLEAF" allianceID="1567141329" executorCorpID="836504582" memberCount="91" startDate="2009-07-09 22:38:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="761359503" startDate="2009-07-10 23:03:00" />
+          <row corporationID="776134876" startDate="2009-08-19 17:22:00" />
+          <row corporationID="836504582" startDate="2009-07-09 22:38:00" />
+          <row corporationID="848836642" startDate="2009-08-11 22:35:00" />
+          <row corporationID="1211449191" startDate="2009-07-10 23:03:00" />
         </rowset>
       </row>
       <row name="KenZoku" shortName="RKZ" allianceID="1762812782" executorCorpID="844498619" memberCount="91" startDate="2008-12-08 23:42:00">
@@ -7094,6 +7095,19 @@
           <row corporationID="2025250559" startDate="2008-11-21 23:26:00" />
         </rowset>
       </row>
+      <row name="No Apology" shortName="NO" allianceID="1689478023" executorCorpID="1496421473" memberCount="79" startDate="2008-12-06 13:45:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="169176972" startDate="2009-05-27 16:51:00" />
+          <row corporationID="270802134" startDate="2009-03-20 05:51:00" />
+          <row corporationID="848155421" startDate="2009-02-23 03:26:00" />
+          <row corporationID="860403133" startDate="2009-02-26 05:34:00" />
+          <row corporationID="1464973196" startDate="2009-03-05 07:11:00" />
+          <row corporationID="1496421473" startDate="2008-12-06 13:45:00" />
+          <row corporationID="1779842434" startDate="2009-06-04 04:56:00" />
+          <row corporationID="1920934973" startDate="2009-04-08 21:07:00" />
+          <row corporationID="1981579935" startDate="2009-05-27 16:51:00" />
+        </rowset>
+      </row>
       <row name="Everto Rex Regis" shortName="666" allianceID="1649178705" executorCorpID="665335352" memberCount="79" startDate="2009-06-30 01:34:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="341878254" startDate="2009-07-15 22:21:00" />
@@ -7106,19 +7120,6 @@
           <row corporationID="285312496" startDate="2009-03-10 14:41:00" />
           <row corporationID="765829278" startDate="2009-03-08 22:09:00" />
           <row corporationID="1616485859" startDate="2009-03-09 23:35:00" />
-        </rowset>
-      </row>
-      <row name="No Apology" shortName="NO" allianceID="1689478023" executorCorpID="1496421473" memberCount="79" startDate="2008-12-06 13:45:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="169176972" startDate="2009-05-27 16:51:00" />
-          <row corporationID="270802134" startDate="2009-03-20 05:51:00" />
-          <row corporationID="848155421" startDate="2009-02-23 03:26:00" />
-          <row corporationID="860403133" startDate="2009-02-26 05:34:00" />
-          <row corporationID="1464973196" startDate="2009-03-05 07:11:00" />
-          <row corporationID="1496421473" startDate="2008-12-06 13:45:00" />
-          <row corporationID="1779842434" startDate="2009-06-04 04:56:00" />
-          <row corporationID="1920934973" startDate="2009-04-08 21:07:00" />
-          <row corporationID="1981579935" startDate="2009-05-27 16:51:00" />
         </rowset>
       </row>
       <row name="Excavation Exploration and Eradication Consortium" shortName="EEEK" allianceID="1834168314" executorCorpID="837984733" memberCount="79" startDate="2009-02-15 22:42:00">
@@ -7178,13 +7179,6 @@
           <row corporationID="1590295739" startDate="2009-08-17 19:41:00" />
         </rowset>
       </row>
-      <row name="Dystopia Alliance" shortName="SINGE" allianceID="1675006617" executorCorpID="1280094373" memberCount="78" startDate="2008-05-16 23:47:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="846588888" startDate="2008-05-16 23:47:00" />
-          <row corporationID="899021329" startDate="2009-07-28 23:31:00" />
-          <row corporationID="1280094373" startDate="2009-07-04 17:25:00" />
-        </rowset>
-      </row>
       <row name="Shadow Rock Alliance" shortName="SRA" allianceID="1621208577" executorCorpID="378132194" memberCount="78" startDate="2008-07-10 18:12:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="318499834" startDate="2009-07-19 23:03:00" />
@@ -7192,6 +7186,13 @@
           <row corporationID="1136934475" startDate="2008-07-13 08:05:00" />
           <row corporationID="1418114522" startDate="2009-06-25 17:20:00" />
           <row corporationID="1430096810" startDate="2008-07-11 19:36:00" />
+        </rowset>
+      </row>
+      <row name="Dystopia Alliance" shortName="SINGE" allianceID="1675006617" executorCorpID="1280094373" memberCount="78" startDate="2008-05-16 23:47:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="846588888" startDate="2008-05-16 23:47:00" />
+          <row corporationID="899021329" startDate="2009-07-28 23:31:00" />
+          <row corporationID="1280094373" startDate="2009-07-04 17:25:00" />
         </rowset>
       </row>
       <row name="Banzai Boyz" shortName="BBZ" allianceID="1484956501" executorCorpID="403638692" memberCount="78" startDate="2009-07-09 19:22:00">
@@ -7298,16 +7299,6 @@
           <row corporationID="271291160" startDate="2008-08-13 02:14:00" />
         </rowset>
       </row>
-      <row name="Outer Ring Exhumation Inc." shortName="OREI" allianceID="1847809696" executorCorpID="1952236257" memberCount="76" startDate="2008-12-13 09:48:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="306339903" startDate="2009-04-08 21:05:00" />
-          <row corporationID="886452466" startDate="2009-06-26 23:02:00" />
-          <row corporationID="1830756307" startDate="2008-12-14 10:02:00" />
-          <row corporationID="1861600369" startDate="2009-01-06 01:23:00" />
-          <row corporationID="1952236257" startDate="2008-12-13 09:48:00" />
-          <row corporationID="2071533727" startDate="2009-06-22 08:44:00" />
-        </rowset>
-      </row>
       <row name="Inver Brass" shortName="I-BRA" allianceID="1867653847" executorCorpID="876738141" memberCount="76" startDate="2008-08-18 09:16:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="208662275" startDate="2008-10-23 00:07:00" />
@@ -7317,6 +7308,16 @@
           <row corporationID="1478390249" startDate="2008-10-17 15:40:00" />
           <row corporationID="1546936744" startDate="2009-03-04 09:11:00" />
           <row corporationID="1706608889" startDate="2009-07-31 22:10:00" />
+        </rowset>
+      </row>
+      <row name="Outer Ring Exhumation Inc." shortName="OREI" allianceID="1847809696" executorCorpID="1952236257" memberCount="76" startDate="2008-12-13 09:48:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="306339903" startDate="2009-04-08 21:05:00" />
+          <row corporationID="886452466" startDate="2009-06-26 23:02:00" />
+          <row corporationID="1830756307" startDate="2008-12-14 10:02:00" />
+          <row corporationID="1861600369" startDate="2009-01-06 01:23:00" />
+          <row corporationID="1952236257" startDate="2008-12-13 09:48:00" />
+          <row corporationID="2071533727" startDate="2009-06-22 08:44:00" />
         </rowset>
       </row>
       <row name="Rising Orbit Free Trade League" shortName="ROFL-" allianceID="1906141556" executorCorpID="619028291" memberCount="76" startDate="2008-07-03 00:16:00">
@@ -7352,14 +7353,6 @@
           <row corporationID="1773984210" startDate="2009-07-29 00:08:00" />
         </rowset>
       </row>
-      <row name="Taurus Quantum Dynamics" shortName="TQD" allianceID="1933319908" executorCorpID="1049206010" memberCount="75" startDate="2009-02-19 20:24:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="421905209" startDate="2009-05-16 00:14:00" />
-          <row corporationID="777460335" startDate="2009-02-20 20:57:00" />
-          <row corporationID="1049206010" startDate="2009-07-07 00:36:00" />
-          <row corporationID="1672260612" startDate="2009-07-27 00:56:00" />
-        </rowset>
-      </row>
       <row name="Unspoken Alliance" shortName="UNA" allianceID="1918039323" executorCorpID="1751245342" memberCount="75" startDate="2009-04-22 04:22:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="917007788" startDate="2009-08-03 05:04:00" />
@@ -7367,6 +7360,14 @@
           <row corporationID="1679934366" startDate="2009-05-10 19:09:00" />
           <row corporationID="1699463401" startDate="2009-04-23 22:06:00" />
           <row corporationID="1751245342" startDate="2009-04-22 04:22:00" />
+        </rowset>
+      </row>
+      <row name="Taurus Quantum Dynamics" shortName="TQD" allianceID="1933319908" executorCorpID="1049206010" memberCount="75" startDate="2009-02-19 20:24:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="421905209" startDate="2009-05-16 00:14:00" />
+          <row corporationID="777460335" startDate="2009-02-20 20:57:00" />
+          <row corporationID="1049206010" startDate="2009-07-07 00:36:00" />
+          <row corporationID="1672260612" startDate="2009-07-27 00:56:00" />
         </rowset>
       </row>
       <row name="Libera Alliance" shortName="-LA-" allianceID="1039527124" executorCorpID="752992235" memberCount="75" startDate="2008-11-02 05:27:00">
@@ -8685,6 +8686,12 @@
           <row corporationID="1821717540" startDate="2009-07-14 22:47:00" />
         </rowset>
       </row>
+      <row name="Van Terra Systems" shortName="VATS" allianceID="1692501429" executorCorpID="1176722110" memberCount="47" startDate="2009-01-26 09:31:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1176722110" startDate="2009-01-26 09:31:00" />
+          <row corporationID="1640732343" startDate="2009-05-03 10:17:00" />
+        </rowset>
+      </row>
       <row name="Tactical Unison Allied Forces" shortName="TUAF" allianceID="1895108094" executorCorpID="919333428" memberCount="47" startDate="2009-04-20 03:44:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="455137481" startDate="2009-04-22 00:06:00" />
@@ -8697,10 +8704,13 @@
           <row corporationID="1797377332" startDate="2009-05-17 21:29:00" />
         </rowset>
       </row>
-      <row name="Van Terra Systems" shortName="VATS" allianceID="1692501429" executorCorpID="1176722110" memberCount="47" startDate="2009-01-26 09:31:00">
+      <row name="Vindication Mob" shortName="DEATH" allianceID="1817109235" executorCorpID="1434689227" memberCount="46" startDate="2008-09-14 17:41:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1176722110" startDate="2009-01-26 09:31:00" />
-          <row corporationID="1640732343" startDate="2009-05-03 10:17:00" />
+          <row corporationID="368555007" startDate="2009-03-04 18:54:00" />
+          <row corporationID="916971667" startDate="2008-09-15 19:39:00" />
+          <row corporationID="1311035253" startDate="2009-02-21 23:12:00" />
+          <row corporationID="1421096354" startDate="2009-02-13 02:47:00" />
+          <row corporationID="1434689227" startDate="2009-02-12 14:47:00" />
         </rowset>
       </row>
       <row name="EvE Consortium" shortName="EVE" allianceID="1661542676" executorCorpID="110004096" memberCount="46" startDate="2007-10-30 01:56:00">
@@ -8709,15 +8719,6 @@
           <row corporationID="206248970" startDate="2009-07-24 21:23:00" />
           <row corporationID="871052766" startDate="2009-08-16 02:02:00" />
           <row corporationID="1410563551" startDate="2009-01-26 18:20:00" />
-        </rowset>
-      </row>
-      <row name="Vindication Mob" shortName="DEATH" allianceID="1817109235" executorCorpID="1434689227" memberCount="46" startDate="2008-09-14 17:41:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="368555007" startDate="2009-03-04 18:54:00" />
-          <row corporationID="916971667" startDate="2008-09-15 19:39:00" />
-          <row corporationID="1311035253" startDate="2009-02-21 23:12:00" />
-          <row corporationID="1421096354" startDate="2009-02-13 02:47:00" />
-          <row corporationID="1434689227" startDate="2009-02-12 14:47:00" />
         </rowset>
       </row>
       <row name="The Final Stand." shortName="TFS" allianceID="1271973829" executorCorpID="1024379604" memberCount="46" startDate="2009-06-11 22:01:00">
@@ -8805,15 +8806,6 @@
           <row corporationID="1511654973" startDate="2009-07-30 22:36:00" />
           <row corporationID="1547197022" startDate="2009-07-26 00:16:00" />
           <row corporationID="1873734477" startDate="2009-07-27 17:01:00" />
-        </rowset>
-      </row>
-      <row name="Cruor-Salax Legion" shortName="SALAX" allianceID="1912505204" executorCorpID="1413520494" memberCount="44" startDate="2009-02-19 00:43:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1183059289" startDate="2009-08-24 20:53:00" />
-          <row corporationID="1413520494" startDate="2009-02-19 00:43:00" />
-          <row corporationID="1414899980" startDate="2009-02-20 21:57:00" />
-          <row corporationID="1958897829" startDate="2009-07-05 06:34:00" />
-          <row corporationID="1989237620" startDate="2009-07-24 18:44:00" />
         </rowset>
       </row>
       <row name="Cleveland Steamship Co." shortName="FLAPS" allianceID="1208682272" executorCorpID="1205508427" memberCount="44" startDate="2009-06-21 02:41:00">
@@ -8906,6 +8898,15 @@
           <row corporationID="611065970" startDate="2009-03-20 18:11:00" />
           <row corporationID="1339318978" startDate="2009-06-13 15:17:00" />
           <row corporationID="1668638219" startDate="2009-07-08 03:13:00" />
+        </rowset>
+      </row>
+      <row name="Cruor-Salax Legion" shortName="SALAX" allianceID="1912505204" executorCorpID="1413520494" memberCount="43" startDate="2009-02-19 00:43:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1183059289" startDate="2009-08-24 20:53:00" />
+          <row corporationID="1413520494" startDate="2009-02-19 00:43:00" />
+          <row corporationID="1414899980" startDate="2009-02-20 21:57:00" />
+          <row corporationID="1958897829" startDate="2009-07-05 06:34:00" />
+          <row corporationID="1989237620" startDate="2009-07-24 18:44:00" />
         </rowset>
       </row>
       <row name="BULLFROG." shortName="FROG" allianceID="2028891123" executorCorpID="505312211" memberCount="43" startDate="2009-02-27 22:27:00">
@@ -9078,12 +9079,6 @@
           <row corporationID="871830009" startDate="2009-03-13 23:37:00" />
         </rowset>
       </row>
-      <row name="Dawn Of A New System" shortName="DNS" allianceID="1691629343" executorCorpID="309842049" memberCount="41" startDate="2009-05-24 17:45:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="309842049" startDate="2009-05-24 17:45:00" />
-          <row corporationID="1884252911" startDate="2009-05-25 18:22:00" />
-        </rowset>
-      </row>
       <row name="HAUNTED SANITY Alliance" shortName="HAUNT" allianceID="1703100662" executorCorpID="1665693216" memberCount="41" startDate="2009-05-24 20:01:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="168647967" startDate="2009-05-26 23:06:00" />
@@ -9094,13 +9089,10 @@
           <row corporationID="2054926306" startDate="2009-05-25 20:20:00" />
         </rowset>
       </row>
-      <row name="Invictus Imperium" shortName="INVC" allianceID="2049446239" executorCorpID="1322364568" memberCount="41" startDate="2008-01-19 16:16:00">
+      <row name="Dawn Of A New System" shortName="DNS" allianceID="1691629343" executorCorpID="309842049" memberCount="41" startDate="2009-05-24 17:45:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1311281270" startDate="2008-03-06 22:47:00" />
-          <row corporationID="1322364568" startDate="2008-07-12 00:04:00" />
-          <row corporationID="1353589730" startDate="2009-06-03 02:04:00" />
-          <row corporationID="1690139407" startDate="2009-06-03 02:04:00" />
-          <row corporationID="1774405799" startDate="2008-06-16 21:17:00" />
+          <row corporationID="309842049" startDate="2009-05-24 17:45:00" />
+          <row corporationID="1884252911" startDate="2009-05-25 18:22:00" />
         </rowset>
       </row>
       <row name="Scandalous." shortName="SCNDL" allianceID="1970148980" executorCorpID="1916684669" memberCount="41" startDate="2009-02-21 00:10:00">
@@ -9120,6 +9112,15 @@
           <row corporationID="808127726" startDate="2009-07-10 03:38:00" />
           <row corporationID="1509366829" startDate="2009-05-10 05:43:00" />
           <row corporationID="1537541907" startDate="2009-06-01 06:29:00" />
+        </rowset>
+      </row>
+      <row name="Invictus Imperium" shortName="INVC" allianceID="2049446239" executorCorpID="1322364568" memberCount="41" startDate="2008-01-19 16:16:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1311281270" startDate="2008-03-06 22:47:00" />
+          <row corporationID="1322364568" startDate="2008-07-12 00:04:00" />
+          <row corporationID="1353589730" startDate="2009-06-03 02:04:00" />
+          <row corporationID="1690139407" startDate="2009-06-03 02:04:00" />
+          <row corporationID="1774405799" startDate="2008-06-16 21:17:00" />
         </rowset>
       </row>
       <row name="Mutual Assured Destruction" shortName="MASD" allianceID="1639445577" executorCorpID="1031415826" memberCount="40" startDate="2008-08-29 01:33:00">
@@ -9354,20 +9355,20 @@
           <row corporationID="1321053036" startDate="2009-07-02 05:43:00" />
         </rowset>
       </row>
-      <row name="The Fierce Allegiance" shortName="T-F-A" allianceID="1545548161" executorCorpID="1619992518" memberCount="36" startDate="2008-07-17 08:07:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1035038604" startDate="2008-07-18 08:53:00" />
-          <row corporationID="1039114504" startDate="2009-08-15 01:53:00" />
-          <row corporationID="1045846293" startDate="2009-08-01 01:49:00" />
-          <row corporationID="1619992518" startDate="2008-07-17 08:07:00" />
-        </rowset>
-      </row>
       <row name="Negotium Alliance" shortName="NGA" allianceID="1531653234" executorCorpID="1104020967" memberCount="36" startDate="2009-08-13 01:47:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1104020967" startDate="2009-08-13 01:47:00" />
           <row corporationID="1443259352" startDate="2009-08-14 08:47:00" />
           <row corporationID="1839118248" startDate="2009-08-17 16:33:00" />
           <row corporationID="1924595870" startDate="2009-08-14 06:47:00" />
+        </rowset>
+      </row>
+      <row name="The Fierce Allegiance" shortName="T-F-A" allianceID="1545548161" executorCorpID="1619992518" memberCount="36" startDate="2008-07-17 08:07:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1035038604" startDate="2008-07-18 08:53:00" />
+          <row corporationID="1039114504" startDate="2009-08-15 01:53:00" />
+          <row corporationID="1045846293" startDate="2009-08-01 01:49:00" />
+          <row corporationID="1619992518" startDate="2008-07-17 08:07:00" />
         </rowset>
       </row>
       <row name="Aristocratic Bastards" shortName="GODIE" allianceID="1210775195" executorCorpID="1733814826" memberCount="36" startDate="2009-01-31 03:03:00">
@@ -10128,6 +10129,11 @@
           <row corporationID="1950103845" startDate="2009-08-03 13:46:00" />
         </rowset>
       </row>
+      <row name="SMACK." shortName="SMACK" allianceID="1920750927" executorCorpID="517056439" memberCount="24" startDate="2008-12-16 18:23:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="517056439" startDate="2008-12-16 18:23:00" />
+        </rowset>
+      </row>
       <row name="Confederate Empire Alliance" shortName="-CEA-" allianceID="1912340506" executorCorpID="1705924524" memberCount="24" startDate="2009-06-03 04:11:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="556097198" startDate="2009-06-06 02:44:00" />
@@ -10137,9 +10143,10 @@
           <row corporationID="1705924524" startDate="2009-06-03 04:11:00" />
         </rowset>
       </row>
-      <row name="SMACK." shortName="SMACK" allianceID="1920750927" executorCorpID="517056439" memberCount="24" startDate="2008-12-16 18:23:00">
+      <row name="The Dolphin Tank" shortName="TDT" allianceID="1605158873" executorCorpID="326835676" memberCount="24" startDate="2009-01-24 10:14:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="517056439" startDate="2008-12-16 18:23:00" />
+          <row corporationID="122096552" startDate="2009-01-25 13:55:00" />
+          <row corporationID="326835676" startDate="2009-01-24 10:14:00" />
         </rowset>
       </row>
       <row name="Aeon Empire" shortName="AE0N5" allianceID="1579512120" executorCorpID="1715989261" memberCount="24" startDate="2008-08-09 20:31:00">
@@ -10150,12 +10157,6 @@
           <row corporationID="1655295096" startDate="2009-02-01 02:45:00" />
           <row corporationID="1715989261" startDate="2008-08-09 20:31:00" />
           <row corporationID="1796433756" startDate="2009-03-08 23:51:00" />
-        </rowset>
-      </row>
-      <row name="The Dolphin Tank" shortName="TDT" allianceID="1605158873" executorCorpID="326835676" memberCount="24" startDate="2009-01-24 10:14:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="122096552" startDate="2009-01-25 13:55:00" />
-          <row corporationID="326835676" startDate="2009-01-24 10:14:00" />
         </rowset>
       </row>
       <row name="BOGLYFT" shortName="ANAL" allianceID="1708771618" executorCorpID="1499896403" memberCount="24" startDate="2009-07-01 07:05:00">
@@ -10382,18 +10383,18 @@
           <row corporationID="1767049535" startDate="2009-08-14 06:47:00" />
         </rowset>
       </row>
+      <row name="Praetorian Legions Alliance" shortName="PLAN" allianceID="1511877637" executorCorpID="619180150" memberCount="20" startDate="2009-06-28 23:45:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="349061976" startDate="2009-08-15 04:07:00" />
+          <row corporationID="619180150" startDate="2009-06-28 23:45:00" />
+        </rowset>
+      </row>
       <row name="United Toxic Planets" shortName="TOXIC" allianceID="1569086756" executorCorpID="1882016217" memberCount="20" startDate="2009-04-11 02:03:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1117829209" startDate="2009-04-14 02:49:00" />
           <row corporationID="1149461709" startDate="2009-04-14 21:55:00" />
           <row corporationID="1568730526" startDate="2009-04-11 02:03:00" />
           <row corporationID="1882016217" startDate="2009-04-20 22:17:00" />
-        </rowset>
-      </row>
-      <row name="Praetorian Legions Alliance" shortName="PLAN" allianceID="1511877637" executorCorpID="619180150" memberCount="20" startDate="2009-06-28 23:45:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="349061976" startDate="2009-08-15 04:07:00" />
-          <row corporationID="619180150" startDate="2009-06-28 23:45:00" />
         </rowset>
       </row>
       <row name="Anarchy." shortName="FCKU" allianceID="1603281980" executorCorpID="134177425" memberCount="20" startDate="2008-04-28 16:56:00">
@@ -10768,16 +10769,16 @@
           <row corporationID="1943669670" startDate="2009-05-06 02:45:00" />
         </rowset>
       </row>
-      <row name="Langers R'Us" shortName="UR2" allianceID="1967720913" executorCorpID="246122219" memberCount="14" startDate="2009-02-20 22:38:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="246122219" startDate="2009-02-20 22:38:00" />
-          <row corporationID="698507204" startDate="2009-02-21 22:54:00" />
-        </rowset>
-      </row>
       <row name="Tinker's and Zed's Alliance" shortName="TAZ" allianceID="2018896300" executorCorpID="1244542693" memberCount="14" startDate="2008-09-09 22:31:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="285036457" startDate="2008-09-11 00:52:00" />
           <row corporationID="1244542693" startDate="2008-09-09 22:31:00" />
+        </rowset>
+      </row>
+      <row name="Langers R'Us" shortName="UR2" allianceID="1967720913" executorCorpID="246122219" memberCount="14" startDate="2009-02-20 22:38:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="246122219" startDate="2009-02-20 22:38:00" />
+          <row corporationID="698507204" startDate="2009-02-21 22:54:00" />
         </rowset>
       </row>
       <row name="Void Alliance" shortName="VA" allianceID="356370505" executorCorpID="1558893342" memberCount="14" startDate="2009-06-24 18:43:00">
@@ -11086,19 +11087,6 @@
           <row corporationID="1478309634" startDate="2008-06-13 18:57:00" />
         </rowset>
       </row>
-      <row name="The Colbert Nation" shortName="TCN" allianceID="1782806476" executorCorpID="1870662097" memberCount="11" startDate="2007-11-12 14:42:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1870662097" startDate="2008-08-02 15:51:00" />
-        </rowset>
-      </row>
-      <row name="A Gentle Tyranny" shortName="GT" allianceID="1798720604" executorCorpID="375120210" memberCount="11" startDate="2007-11-14 20:06:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="375120210" startDate="2007-11-15 20:35:00" />
-          <row corporationID="981391993" startDate="2007-11-14 20:06:00" />
-          <row corporationID="1617847172" startDate="2009-08-22 17:04:00" />
-          <row corporationID="1892837625" startDate="2007-12-01 20:11:00" />
-        </rowset>
-      </row>
       <row name="Lex Legis Victi" shortName="-LLV-" allianceID="1763032466" executorCorpID="1761673267" memberCount="11" startDate="2009-03-09 15:48:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="889886546" startDate="2009-05-07 05:41:00" />
@@ -11111,6 +11099,19 @@
           <row corporationID="828257156" startDate="2007-11-09 16:39:00" />
           <row corporationID="966809152" startDate="2009-06-17 17:42:00" />
           <row corporationID="1118479648" startDate="2009-03-25 00:22:00" />
+        </rowset>
+      </row>
+      <row name="A Gentle Tyranny" shortName="GT" allianceID="1798720604" executorCorpID="375120210" memberCount="11" startDate="2007-11-14 20:06:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="375120210" startDate="2007-11-15 20:35:00" />
+          <row corporationID="981391993" startDate="2007-11-14 20:06:00" />
+          <row corporationID="1617847172" startDate="2009-08-22 17:04:00" />
+          <row corporationID="1892837625" startDate="2007-12-01 20:11:00" />
+        </rowset>
+      </row>
+      <row name="The Colbert Nation" shortName="TCN" allianceID="1782806476" executorCorpID="1870662097" memberCount="11" startDate="2007-11-12 14:42:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1870662097" startDate="2008-08-02 15:51:00" />
         </rowset>
       </row>
       <row name="E.A.R.T.H. Federation" shortName="EARTH" allianceID="952720760" executorCorpID="924109922" memberCount="11" startDate="2006-07-16 09:39:00">
@@ -11490,6 +11491,13 @@
           <row corporationID="1395960212" startDate="2009-06-01 18:06:00" />
         </rowset>
       </row>
+      <row name="Crimson Steel Empire" shortName="CRIMS" allianceID="1629229846" executorCorpID="1621361630" memberCount="6" startDate="2009-05-30 14:17:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="566513505" startDate="2009-08-25 10:10:00" />
+          <row corporationID="1601964173" startDate="2009-08-25 12:20:00" />
+          <row corporationID="1621361630" startDate="2009-05-31 15:12:00" />
+        </rowset>
+      </row>
       <row name="Rising Darkness" shortName="RISE" allianceID="1466346044" executorCorpID="1228851899" memberCount="6" startDate="2008-05-11 23:58:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="541936953" startDate="2008-05-14 02:49:00" />
@@ -11673,15 +11681,15 @@
           <row corporationID="1886058494" startDate="2009-02-26 09:20:00" />
         </rowset>
       </row>
-      <row name="G.U.A.R.D." shortName="GUARD" allianceID="1715460714" executorCorpID="968482515" memberCount="4" startDate="2008-09-27 19:24:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="968482515" startDate="2008-09-27 19:24:00" />
-        </rowset>
-      </row>
       <row name="Fleetingly Finite" shortName="TFFA" allianceID="1563829472" executorCorpID="495506205" memberCount="4" startDate="2009-07-17 10:47:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="495506205" startDate="2009-07-18 16:16:00" />
           <row corporationID="1942025531" startDate="2009-07-17 10:47:00" />
+        </rowset>
+      </row>
+      <row name="G.U.A.R.D." shortName="GUARD" allianceID="1715460714" executorCorpID="968482515" memberCount="4" startDate="2008-09-27 19:24:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="968482515" startDate="2008-09-27 19:24:00" />
         </rowset>
       </row>
       <row name="CODE RED ALLIANCE" shortName="CODE" allianceID="1353656102" executorCorpID="1353651314" memberCount="4" startDate="2007-09-01 18:05:00">
@@ -11737,16 +11745,16 @@
           <row corporationID="224004644" startDate="2009-01-07 15:21:00" />
         </rowset>
       </row>
-      <row name="Dutch Industries Alliance" shortName="DIA" allianceID="1562124848" executorCorpID="1291543355" memberCount="3" startDate="2009-06-14 13:56:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="166198114" startDate="2009-06-15 14:53:00" />
-          <row corporationID="1291543355" startDate="2009-06-14 13:56:00" />
-        </rowset>
-      </row>
       <row name="Chubby Chuppers Chubba Chups" shortName="CCCC" allianceID="1534691214" executorCorpID="1534637913" memberCount="3" startDate="2008-11-30 17:48:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1534637913" startDate="2008-11-30 17:48:00" />
           <row corporationID="1581549707" startDate="2009-01-24 21:08:00" />
+        </rowset>
+      </row>
+      <row name="Dutch Industries Alliance" shortName="DIA" allianceID="1562124848" executorCorpID="1291543355" memberCount="3" startDate="2009-06-14 13:56:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="166198114" startDate="2009-06-15 14:53:00" />
+          <row corporationID="1291543355" startDate="2009-06-14 13:56:00" />
         </rowset>
       </row>
       <row name="Monkey Religion" shortName="MORE" allianceID="1472704216" executorCorpID="1426340515" memberCount="3" startDate="2007-09-15 06:58:00">
@@ -11767,12 +11775,6 @@
       <row name="Red Dawn Alliance" shortName="RDA" allianceID="1647866649" executorCorpID="1656323446" memberCount="3" startDate="2008-05-16 16:16:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1656323446" startDate="2008-07-12 08:37:00" />
-        </rowset>
-      </row>
-      <row name="Crimson Steel Empire" shortName="CRIMS" allianceID="1629229846" executorCorpID="1621361630" memberCount="3" startDate="2009-05-30 14:17:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="566513505" startDate="2009-08-25 10:10:00" />
-          <row corporationID="1621361630" startDate="2009-05-31 15:12:00" />
         </rowset>
       </row>
       <row name="Prime Orbital Systems" shortName="POS" allianceID="1888622604" executorCorpID="1231828090" memberCount="3" startDate="2008-12-15 02:41:00">
@@ -11940,14 +11942,14 @@
           <row corporationID="1833820853" startDate="2009-08-14 21:53:00" />
         </rowset>
       </row>
-      <row name="Zone OF War" shortName="ZOW" allianceID="1756160899" executorCorpID="1755367228" memberCount="2" startDate="2009-07-26 23:24:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1755367228" startDate="2009-07-26 23:24:00" />
-        </rowset>
-      </row>
       <row name="Rigor Mortis Mortalis" shortName="RIGMM" allianceID="1767595526" executorCorpID="1180467277" memberCount="2" startDate="2008-09-05 23:19:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1180467277" startDate="2008-09-05 23:19:00" />
+        </rowset>
+      </row>
+      <row name="Zone OF War" shortName="ZOW" allianceID="1756160899" executorCorpID="1755367228" memberCount="2" startDate="2009-07-26 23:24:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1755367228" startDate="2009-07-26 23:24:00" />
         </rowset>
       </row>
       <row name="Parallax." shortName="PLX" allianceID="1790260373" executorCorpID="1386267739" memberCount="2" startDate="2009-04-18 14:05:00">
@@ -11960,14 +11962,14 @@
           <row corporationID="1566542085" startDate="2009-07-25 09:35:00" />
         </rowset>
       </row>
-      <row name="Ethikos Trade Alliance" shortName="ESTA" allianceID="1590423931" executorCorpID="2068425173" memberCount="2" startDate="2008-08-15 09:33:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="2068425173" startDate="2009-06-09 07:05:00" />
-        </rowset>
-      </row>
       <row name="Abyss Alliance" shortName="ABVSS" allianceID="1583356798" executorCorpID="808583266" memberCount="2" startDate="2007-09-29 18:40:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="808583266" startDate="2008-10-31 22:57:00" />
+        </rowset>
+      </row>
+      <row name="Ethikos Trade Alliance" shortName="ESTA" allianceID="1590423931" executorCorpID="2068425173" memberCount="2" startDate="2008-08-15 09:33:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="2068425173" startDate="2009-06-09 07:05:00" />
         </rowset>
       </row>
       <row name="Infinite Improbability Alliance" shortName="IIA" allianceID="1708058043" executorCorpID="875897820" memberCount="2" startDate="2009-03-25 02:50:00">
@@ -12016,14 +12018,14 @@
           <row corporationID="1991241887" startDate="2008-12-20 17:55:00" />
         </rowset>
       </row>
-      <row name="Mercenary Forces." shortName="MF" allianceID="1992547840" executorCorpID="1991814113" memberCount="1" startDate="2008-12-19 19:29:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1991814113" startDate="2008-12-19 19:29:00" />
-        </rowset>
-      </row>
       <row name="The Foray Project" shortName="TFP" allianceID="1957501652" executorCorpID="1589700670" memberCount="1" startDate="2009-02-20 16:39:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1589700670" startDate="2009-07-28 17:08:00" />
+        </rowset>
+      </row>
+      <row name="Mercenary Forces." shortName="MF" allianceID="1992547840" executorCorpID="1991814113" memberCount="1" startDate="2008-12-19 19:29:00">
+        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
+          <row corporationID="1991814113" startDate="2008-12-19 19:29:00" />
         </rowset>
       </row>
       <row name="MONOLITHIC IMPERIAL EMPIRE" shortName="SLY" allianceID="1979217956" executorCorpID="1994444198" memberCount="1" startDate="2008-10-05 14:16:00">
@@ -12059,11 +12061,6 @@
       <row name="Black Ice Empire" shortName="B-ICE" allianceID="1448556973" executorCorpID="1447666342" memberCount="1" startDate="2009-05-08 23:50:00">
         <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
           <row corporationID="1447666342" startDate="2009-05-08 23:50:00" />
-        </rowset>
-      </row>
-      <row name="We all love XxNukeyxX" shortName="WALL" allianceID="1420621653" executorCorpID="1968402742" memberCount="1" startDate="2009-02-23 00:49:00">
-        <rowset name="memberCorporations" key="corporationID" columns="corporationID,startDate">
-          <row corporationID="1968402742" startDate="2009-02-23 00:49:00" />
         </rowset>
       </row>
       <row name="Terrebellum" shortName="-TBR-" allianceID="1372370553" executorCorpID="1373546358" memberCount="1" startDate="2008-11-21 05:42:00">
@@ -12223,5 +12220,5 @@
       </row>
     </rowset>
   </result>
-  <cachedUntil>2009-08-25 13:19:36</cachedUntil>
+  <cachedUntil>2109-08-25 14:19:49</cachedUntil>
 </eveapi>
