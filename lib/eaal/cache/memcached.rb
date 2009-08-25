@@ -18,13 +18,14 @@ class EAAL::Cache::MemcachedCache
   def save(userid, apikey, scope, name, args, xml)
     k = key(userid, apikey, scope, name, args)
     cached_until = xml.match(/<cachedUntil>(.+)<\/cachedUntil>/)[1].to_time
-    expires_in = (name=='WalletJournal' ? cached_until.to_i+3600 : cached_until.to_i )-Time.now.to_i
+    expires_in = (name=='WalletJournal' ? cached_until.to_i+3600 : cached_until.to_i )
     $cache.delete(k)
     $cache.add(k,xml,expires_in)
   end
+
   # Loads from the cache if there's a value for it.
   def load(userid, apikey, scope, name, args)
     k = key(userid, apikey, scope, name, args)
-    ($cache.get(k,xml,expires_in) or false) rescue false
+    ($cache.get(k) or false) rescue false
   end
 end
