@@ -44,7 +44,9 @@ class TestEaal < Test::Unit::TestCase
     @api.scope = "account"
     id = @api.Characters.characters.first.characterID
     @api.scope = "char"
-    @api.Standings("characterID" => id)
+    assert_equal @api.Standings(:characterID => 12345).standingsTo.characters[0].toName, "Test Ally"
+    assert_equal @api.Standings(:characterID => 12345).standingsTo.characters[0].standing, "1"
+    assert_equal @api.Standings(:characterID => 12345).standingsFrom.NPCCorporations[1].fromName, "Carthum Conglomerate"
   end
 
   # Test to ensure Memcached works

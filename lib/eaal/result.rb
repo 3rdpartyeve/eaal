@@ -54,7 +54,7 @@ module EAAL
             # parses an xml element to create either the ResultElement, ResultContainer or Rowset 
             # necessary
             def self.parse_element(prefix, element)
-                if element.name == "rowset"
+                if element.name == "rowset" then
                     re = EAAL::Rowset.new(prefix, element)
                 else
                     key = element.name
@@ -62,7 +62,7 @@ module EAAL
                         container = ResultContainer.new
                         element.containers.each { |celement|
                             cel = EAAL::Result::ResultElement.parse_element(prefix, celement)
-                            if element.attributes.length > 0
+                            if celement.attributes.length > 0
                                 container.add_element(cel.name, cel)
                             else 
                                 container.add_element(cel.name, cel.value)
@@ -81,7 +81,7 @@ module EAAL
             end
         end
 
-	# create a new result derived from ResultBase
+	      # create a new result derived from ResultBase
         def self.new(prefix, xml)
             classname = prefix + 'Result'
             members = []
