@@ -38,10 +38,17 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.CharacterSheet(:characterID => 12345).attributes.willpower, "10"
     assert_equal @api.CharacterSheet(:characterID => 12345).gender, "Female"
     assert_equal @api.CharacterSheet(:characterID => 12345).corporationRoles[0].roleName, "roleDirector"
-    # test unpublished skill (like Black Market, not sure it exists now)
     assert_equal @api.CharacterSheet(:characterID => 12345).skills[4].typeID, "3445"
     assert_nil @api.CharacterSheet(:characterID => 12345).skills[4].level
+    # test unpublished skill (like Black Market, not sure it exists now)
     assert_equal @api.CharacterSheet(:characterID => 12345).skills[4].unpublished, "1"
+    assert_equal @api.SkillQueue(:characterID => 12345).skillqueue[0].level, "3"
+  end
+
+  def test_server_status
+    @api.scope = "server"
+    assert_not_nil @api.ServerStatus
+    assert_not_nil @api.ServerStatus.onlinePlayers
   end
 
   # test to check if bug 23177 is fixed. that bug lead to RowSets beeing encapsulated in ResultElements.
@@ -50,6 +57,7 @@ class TestEaal < Test::Unit::TestCase
    assert_kind_of EAAL::Rowset::RowsetBase, @api.AllianceList.alliances.first.memberCorporations
   end
 
+  # test for Standings.xml
   def test_standings
     @api.scope = "account"
     id = @api.Characters.characters.first.characterID
@@ -57,6 +65,14 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.Standings(:characterID => 12345).standingsTo.characters[0].toName, "Test Ally"
     assert_equal @api.Standings(:characterID => 12345).standingsTo.characters[0].standing, "1"
     assert_equal @api.Standings(:characterID => 12345).standingsFrom.NPCCorporations[1].fromName, "Carthum Conglomerate"
+  end
+
+  # test for CorporationSheet
+  def test_corporation
+    @api.scope = "corp"
+    assert_equal @api.CorporationSheet(:corporationID => 150212025).corporationID, "150212025"
+    assert_equal @api.CorporationSheet(:corporationID => 150212025).ceoName, "Mark Roled"
+    assert_equal @api.CorporationSheet(:corporationID => 150212025).walletDivisions[0].description, "Master Wallet"
   end
 
   # Test to ensure Memcached works
