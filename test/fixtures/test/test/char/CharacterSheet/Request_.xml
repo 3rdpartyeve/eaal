@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+  <currentTime>2009-08-26 08:23:27</currentTime>
+  <error code="106">Must provide userID parameter for authentication.</error>
+  <cachedUntil>2009-08-26 08:28:27</cachedUntil>
+</eveapi>

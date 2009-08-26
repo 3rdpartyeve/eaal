@@ -7,7 +7,8 @@ class TestEaal < Test::Unit::TestCase
     EAAL.cache = EAAL::Cache::FileCache.new(File.dirname(__FILE__) + '/fixtures/')
     @api = EAAL::API.new('test','test')
   end
-  # test if we realy got an API Object
+
+  # test if we really got an API Object
   def test_api_class
     assert_instance_of EAAL::API, @api
   end
@@ -32,6 +33,15 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.Killlog(:characterID => 12345).kills.length, 1
     assert_equal @api.Killlog(:characterID => 12345).kills.first.victim.characterName, "Peter Powers"
     assert_equal @api.Killlog(:characterID => 12345).kills.first.attackers.first.characterID, "12345"
+    assert_equal @api.SkillInTraining(:characterID => 12345).skillInTraining, "1"
+    assert_equal @api.SkillInTraining(:characterID => 12345).trainingDestinationSP, "135765"
+    assert_equal @api.CharacterSheet(:characterID => 12345).attributes.willpower, "10"
+    assert_equal @api.CharacterSheet(:characterID => 12345).gender, "Female"
+    assert_equal @api.CharacterSheet(:characterID => 12345).corporationRoles[0].roleName, "roleDirector"
+    # test unpublished skill (like Black Market, not sure it exists now)
+    assert_equal @api.CharacterSheet(:characterID => 12345).skills[4].typeID, "3445"
+    assert_nil @api.CharacterSheet(:characterID => 12345).skills[4].level
+    assert_equal @api.CharacterSheet(:characterID => 12345).skills[4].unpublished, "1"
   end
 
   # test to check if bug 23177 is fixed. that bug lead to RowSets beeing encapsulated in ResultElements.
