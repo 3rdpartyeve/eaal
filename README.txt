@@ -1,5 +1,5 @@
 = eaal
-*  http://eaal.rubyforge.org
+* http://eaal.rubyforge.org
 
 == DESCRIPTION:
 
