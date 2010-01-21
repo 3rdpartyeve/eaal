@@ -1,5 +1,5 @@
 = eaal
-*  http://eaal.rubyforge.org
+* http://eaal.rubyforge.org
 
 == DESCRIPTION:
 
@@ -91,6 +91,8 @@ the XML file will be load.
 == THANKS:
 special thanks go to James "Ix_Forres" Harrison for his code cleanups and 
 his memcache cache handler
+thanks also go to Davide Rambaldi and Ian Delahorno who contributed
+several bug fixes.
 
 == LICENSE:
 
