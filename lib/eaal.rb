@@ -21,7 +21,7 @@ $:.unshift(File.dirname(__FILE__)) unless $:.include?(File.dirname(__FILE__)) ||
 # External libs
 require 'rubygems'
 require 'hpricot'
-require 'activesupport'
+require 'active_support'
 require 'net/http'
 require 'uri'
 require 'cgi'
