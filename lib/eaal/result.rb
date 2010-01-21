@@ -62,7 +62,7 @@ module EAAL
                         container = ResultContainer.new
                         element.containers.each { |celement|
                             cel = EAAL::Result::ResultElement.parse_element(prefix, celement)
-                            if celement.attributes.length > 0
+                            if celement.attributes.to_hash.length > 0
                                 container.add_element(cel.name, cel)
                             else 
                                 container.add_element(cel.name, cel.value)
@@ -73,8 +73,8 @@ module EAAL
                         value = element.inner_html
                     end
                     re = ResultElement.new(key, value)
-                    if element.attributes.length > 0
-                        re.attribs.merge!(element.attributes)
+                    if element.attributes.to_hash.length > 0
+                        re.attribs.merge!(element.attributes.to_hash)
                     end
                 end
                 re
