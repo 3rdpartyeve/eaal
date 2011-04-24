@@ -46,11 +46,13 @@ class EAAL::Cache::FileCache
   # validate cached datas cachedUntil
   def validate_cache(xml, name)
     doc = Hpricot.XML(xml)
+    cached_until = (doc/"/eveapi/cachedUntil").inner_html.to_time
     if name == "WalletJournal"
-            Time.at((doc/"/eveapi/cachedUntil").inner_html.to_time.to_i + 3600) > Time.now
-          else 
-      (doc/"/eveapi/cachedUntil").inner_html.to_time > Time.now
+      result = Time.at(cached_until.to_i + 3600) > Time.now.utc
+    else 
+      result = cached_until > Time.now.utc
     end
+    result
   end
   
   # save xml data to file
