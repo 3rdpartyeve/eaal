@@ -66,12 +66,16 @@ class EAAL::API
   # stolen from Reve (thx lisa)
   # * opts (Hash)
   def format_url_request(opts)
-    req = "?"
+    req = ''
+
+    opts.delete_if {|k,v| v.nil? }
+    return req if opts.empty?
+
     opts.stringify_keys!
-    opts.keys.sort.each do |key|
-      req += "#{CGI.escape(key.to_s)}=#{CGI.escape(opts[key].to_s)}&" if opts[key]
+    opts = opts.keys.sort.map do |key|
+      "#{CGI.escape(key.to_s)}=#{CGI.escape(opts[key].to_s)}"
     end
-    req.chop # We are lazy and append a & to each pair even if it's the last one. FIXME: Don't do this.
+    req = '?' + opts.join('&')
   end
 
 end
