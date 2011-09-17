@@ -1,8 +1,8 @@
 == 0.1.7 2011-03-16
  * 1 fix:
-  * should now work with current active_support / rails 
+  * should now work with current active_support / rails
 
-== 0.1.6 2010-01-21 
+== 0.1.6 2010-01-21
  * 1 fix:
   * should now work with latest hpricot
 
