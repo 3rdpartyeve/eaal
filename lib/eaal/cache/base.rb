@@ -21,7 +21,7 @@ module EAAL
       def save(userid, apikey, scope, name, args, xml)
       end
     end
-    
+
   end
 end
 

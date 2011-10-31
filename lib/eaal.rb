@@ -3,7 +3,7 @@
 # This library is licensed under the terms found in
 # the LICENSE file distributed with it
 #
-# TODO: 
+# TODO:
 #  - more documenation
 #  - write tests (i know, i know, i fail badly)
 #  - more error handling (im certain i missed a few possibles)
@@ -12,7 +12,7 @@
 # THANKS:
 #  thanks go to all people on irc.coldfront.net, channel #eve-dev
 #  special thanks go to lisa (checkout her eve api library, reve,
-#  much more mature then mine) for answering my endless questions 
+#  much more mature then mine) for answering my endless questions
 #  about ruby stuff (and for one or two snippets i stole from reve)
 #++
 # Neat little hack to get around path issues on require
@@ -37,10 +37,10 @@ module EAAL
   mattr_reader :version_string
   VERSION = "0.1.7" # fix for Hoe.spec 2.x
   @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
-    
+
   mattr_accessor :api_base, :additional_request_parameters, :cache
   @@api_base = "http://api.eve-online.com/"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
-  @@additional_request_parameters = {}       # hash, if :key => value pairs are added those will be added to each request    
+  @@additional_request_parameters = {}       # hash, if :key => value pairs are added those will be added to each request
   @@cache = EAAL::Cache::NoCache.new         # caching object, see EAAL::Cache::FileCache for an Example
 end
 require 'eaal/api'
