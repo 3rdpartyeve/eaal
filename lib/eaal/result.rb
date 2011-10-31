@@ -6,20 +6,20 @@
 module EAAL
 
     module Result
-      
+
         # base class for automated result class creation
         class ResultBase
             attr_accessor :request_time, :cached_until
         end
-        
-        # Result Container class, ...  
+
+        # Result Container class, ...
         class ResultContainer
             attr_accessor :container
 
             def initialize
                 self.container = {}
             end
-            
+
             def add_element(key, val)
                 self.container.merge!({key => val})
             end
@@ -34,7 +34,7 @@ module EAAL
             attr_accessor :name, :value, :attribs
             def initialize(name, value)
                 self.name = name
-                self.value = value     
+                self.value = value
                 self.attribs = {}
             end
 
@@ -46,12 +46,12 @@ module EAAL
                 if self.attribs.has_key?(method.id2name)
                     self.attribs[method.id2name]
                 else
-                    self.value.send(method, *args)                    
+                    self.value.send(method, *args)
                 end
-                
+
             end
-                    
-            # parses an xml element to create either the ResultElement, ResultContainer or Rowset 
+
+            # parses an xml element to create either the ResultElement, ResultContainer or Rowset
             # necessary
             def self.parse_element(prefix, element)
                 if element.name == "rowset" then
@@ -64,7 +64,7 @@ module EAAL
                             cel = EAAL::Result::ResultElement.parse_element(prefix, celement)
                             if celement.attributes.to_hash.length > 0
                                 container.add_element(cel.name, cel)
-                            else 
+                            else
                                 container.add_element(cel.name, cel.value)
                             end
                         }
@@ -104,7 +104,7 @@ module EAAL
                 end
             }
             if not Object.const_defined? classname
-                klass = Object.const_set(classname, Class.new(EAAL::Result::ResultBase))    
+                klass = Object.const_set(classname, Class.new(EAAL::Result::ResultBase))
                 klass.class_eval do
                     attr_accessor(*members)
                 end

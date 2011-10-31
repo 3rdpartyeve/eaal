@@ -3,7 +3,7 @@
 
 == DESCRIPTION:
 
-EAAL (Eve API Access Layer) is a ruby library for accessing data of the API of 
+EAAL (Eve API Access Layer) is a ruby library for accessing data of the API of
 the game Eve Online
 
 == FEATURES/PROBLEMS:
@@ -18,7 +18,7 @@ Initialize the API Object
 
   api = EAAL::API.new("my Userid", "my API key"[, "scope for requests"])
 
-the scope is the one used for the API requests, 
+the scope is the one used for the API requests,
 ex. account/char/corp/eve/map/server
 see http://wiki.eve-id.net/APIv2_Page_Index
 the scope can be changed during runtime and defaults to account
@@ -44,17 +44,17 @@ Example 2, getting the id for a given character name
 
 Example 3, Example 2 in short
  puts EAAL::Api.new("my userid", "my API key", "eve").CharacterID(:names => "Peter Powers").characters.name
- 
+
 
 Errors returned by the EVE API are handled a bit unique,
-since i wanted to have them pretty much dynamic (so i dont need to hack EAAL 
+since i wanted to have them pretty much dynamic (so i dont need to hack EAAL
 whenever CCP adds a new Error) you have to use dynamic created classes to catch 'em
 (if you dont want to catch EAAL::Exception::EveAPIException in general)
 so what you do is:
 
 Example 4, catching a specific EVE API Exception
   begin
-    api.Killlog("characterID" => "12345") #this example offcourse 
+    api.Killlog("characterID" => "12345") #this example offcourse
                                           # assumes your not having the key for character 12345 loaded ;)
   rescue EAAL::Exception.EveAPIException(201)
     #dosomething
@@ -89,7 +89,7 @@ the XML file will be load.
 * sudo gem install eaal
 
 == THANKS:
-special thanks go to James "Ix_Forres" Harrison for his code cleanups and 
+special thanks go to James "Ix_Forres" Harrison for his code cleanups and
 his memcache cache handler
 thanks also go to Davide Rambaldi and Ian Delahorno who contributed
 several bug fixes.
