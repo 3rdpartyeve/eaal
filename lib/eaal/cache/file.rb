@@ -22,8 +22,8 @@ class EAAL::Cache::FileCache
     ret =""
     args.delete_if { |k,v| (v || "").to_s.length == 0 }
     h = args.stringify_keys
-    ret += h.sort.flatten.collect{ |e| e.to_s }.join(':')
-    hash = ret.gsub(/:$/,'')
+    ret += h.sort.flatten.collect{ |e| e.to_s }.join('_')
+    hash = ret.gsub(/_$/,'')
     "#{@basepath}#{userid}/#{apikey}/#{scope}/#{name}/Request_#{hash}.xml"
   end
 
