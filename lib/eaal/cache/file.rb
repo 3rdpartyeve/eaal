@@ -59,6 +59,6 @@ class EAAL::Cache::FileCache
   def save(userid, apikey, scope, name, args, xml)
     filename = self.filename(userid, apikey,scope,name,args)
     FileUtils.mkdir_p(File.dirname(filename))
-    File.open(filename,'w') { |f| f.print xml }
+    File.open(filename,'wb') { |f| f.print xml }
   end
 end
