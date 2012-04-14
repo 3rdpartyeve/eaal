@@ -70,7 +70,7 @@ module EAAL
                         }
                         value = container
                     else
-                        value = element.inner_html
+                        value = element.inner_html.gsub(/\W+/, "") #Mainly to filter tags within description element in corporationsheet.
                     end
                     re = ResultElement.new(key, value)
                     if element.attributes.to_hash.length > 0
