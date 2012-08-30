@@ -27,6 +27,11 @@ module EAAL
             def method_missing(method, *args)
                 self.container[method.id2name]
             end
+
+            def to_hash
+                hash = {}
+                return hash.merge!(self.container)
+            end
         end
 
         # result element
@@ -48,7 +53,6 @@ module EAAL
                 else
                     self.value.send(method, *args)
                 end
-
             end
 
             # parses an xml element to create either the ResultElement, ResultContainer or Rowset
