@@ -29,8 +29,12 @@ module EAAL
             end
 
             def to_hash
-                hash = {}
-                return hash.merge!(self.container)
+                if self.container == {}
+                    vars = self.instance_variables
+                    vars.delete_at(0) # delete container var name
+                    vars.each {|v| self.container[v.to_s.gsub("@","")] = self.instance_variable_get v }
+                end
+                return self.container.dup
             end
         end
 
