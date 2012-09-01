@@ -35,7 +35,7 @@ require 'eaal/result'
 require 'eaal/rowset'
 module EAAL
   mattr_reader :version_string
-  VERSION = "0.1.9" # fix for Hoe.spec 2.x
+  VERSION = "0.1.10" # fix for Hoe.spec 2.x
   @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
 
   mattr_accessor :api_base, :additional_request_parameters, :cache
