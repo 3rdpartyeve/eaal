@@ -1,4 +1,3 @@
-require 'pry'
 # EAAL::API class
 # Usage Example:
 #  api = EAAL::API.new("my keyID", "my API key")
