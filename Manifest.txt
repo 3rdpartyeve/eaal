@@ -15,8 +15,16 @@ script/console
 script/destroy
 script/generate
 test/fixtures/test/test/account/Characters/Request_.xml
+test/fixtures/test/test/char/CharacterSheet/Request_.xml
+test/fixtures/test/test/char/CharacterSheet/Request_characterID_12345.xml
 test/fixtures/test/test/char/Killlog/Request_.xml
-test/fixtures/test/test/char/Killlog/Request_characterID:12345.xml
+test/fixtures/test/test/char/Killlog/Request_characterID_12345.xml
+test/fixtures/test/test/char/SkillInTraining/Request_characterID_12345.xml
+test/fixtures/test/test/char/SkillQueue/Request_characterID_12345.xml
+test/fixtures/test/test/char/Standings/Request_.xml
+test/fixtures/test/test/char/Standings/Request_characterID_12345.xml
+test/fixtures/test/test/corp/CorporationSheet/Request_corporationID_150212025.xml
 test/fixtures/test/test/eve/AllianceList/Request_.xml
+test/fixtures/test/test/server/ServerStatus/Request_.xml
 test/test_eaal.rb
 test/test_helper.rb

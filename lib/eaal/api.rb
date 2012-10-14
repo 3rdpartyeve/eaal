@@ -1,4 +1,3 @@
-
 # EAAL::API class
 # Usage Example:
 #  api = EAAL::API.new("my keyID", "my API key")
@@ -28,8 +27,9 @@ class EAAL::API
   def method_missing(method, *args)
     scope = self.scope
     args_hash = args.first
+    cache_only = (args_hash && args_hash.delete(:cache_only)) || false
     args_hash = {} unless args_hash
-    self.request_xml(scope, method.id2name, args_hash)
+    self.request_xml(scope, method.id2name, args_hash, cache_only)
   end
 
   # make a request to the api. will use cache if set.
@@ -37,10 +37,10 @@ class EAAL::API
   # * scope (String)
   # * name (String)
   # * opts (Hash)
-  def request_xml(scope, name, opts)
+  def request_xml(scope, name, opts, cache_only = false)
     opts = EAAL.additional_request_parameters.merge(opts)
     xml = EAAL.cache.load(self.keyid, self.vcode, scope, name,opts)
-    if not xml
+    if (not xml) && (not cache_only)
       source = URI.parse(EAAL.api_base + scope + '/' + name +'.xml.aspx')
       req_path = source.path + format_url_request(opts.merge({
         :keyid => self.keyid,
@@ -58,8 +58,12 @@ class EAAL::API
       EAAL.cache.save(self.keyid, self.vcode, scope,name,opts, res.body)
       xml = res.body
     end
-    doc = Hpricot.XML(xml)
-    result = EAAL::Result.new(scope.capitalize + name, doc)
+    if xml
+      doc = Hpricot.XML(xml)
+      result = EAAL::Result.new(scope.capitalize + name, doc)
+    else 
+      result = nil
+    end
   end
 
   # Turns a hash into ?var=baz&bam=boo
