@@ -21,11 +21,9 @@ $:.unshift(File.dirname(__FILE__)) unless $:.include?(File.dirname(__FILE__)) ||
 # External libs
 require 'rubygems'
 require 'hpricot'
-require 'active_support'
-require 'active_support/core_ext'
-require 'net/http'
-require 'uri'
 require 'cgi'
+require 'faraday'
+
 # And now EAAL stuff
 require 'eaal/cache/base'
 require 'eaal/cache/file'
@@ -33,14 +31,38 @@ require 'eaal/cache/memcached'
 require 'eaal/exception'
 require 'eaal/result'
 require 'eaal/rowset'
+
 module EAAL
-  mattr_reader :version_string
   VERSION = "0.1.10" # fix for Hoe.spec 2.x
   @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
 
-  mattr_accessor :api_base, :additional_request_parameters, :cache
-  @@api_base = "http://api.eve-online.com/"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
+  @@api_base = "https://api.eveonline.com"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
   @@additional_request_parameters = {}       # hash, if :key => value pairs are added those will be added to each request
   @@cache = EAAL::Cache::NoCache.new         # caching object, see EAAL::Cache::FileCache for an Example
+
+  def self.version_string
+    @@version_string
+  end
+  def self.version_string=(val)
+    @@version_string = val
+  end
+  def self.api_base
+    @@api_base
+  end
+  def self.api_base=(val)
+    @@api_base = val
+  end
+  def self.additional_request_parameters
+    @@additional_request_parameters
+  end
+  def self.additional_request_parameters=(val)
+    @@additional_request_parameters = val
+  end
+  def self.cache
+    @@cache
+  end
+  def self.cache=(val)
+    @@cache = val
+  end
 end
 require 'eaal/api'

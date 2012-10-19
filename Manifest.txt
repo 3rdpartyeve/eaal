@@ -11,9 +11,6 @@ lib/eaal/cache/memcached.rb
 lib/eaal/exception.rb
 lib/eaal/result.rb
 lib/eaal/rowset.rb
-script/console
-script/destroy
-script/generate
 test/fixtures/test/test/account/Characters/Request_.xml
 test/fixtures/test/test/char/CharacterSheet/Request_.xml
 test/fixtures/test/test/char/CharacterSheet/Request_characterID_12345.xml
