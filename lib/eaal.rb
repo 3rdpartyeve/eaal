@@ -24,6 +24,7 @@ require 'hpricot'
 require 'active_support'
 require 'active_support/core_ext'
 require 'net/http'
+require 'net/https'
 require 'uri'
 require 'cgi'
 # And now EAAL stuff
@@ -39,7 +40,7 @@ module EAAL
   @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
 
   mattr_accessor :api_base, :additional_request_parameters, :cache
-  @@api_base = "http://api.eve-online.com/"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
+  @@api_base = "https://api.eve-online.com/"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
   @@additional_request_parameters = {}       # hash, if :key => value pairs are added those will be added to each request
   @@cache = EAAL::Cache::NoCache.new         # caching object, see EAAL::Cache::FileCache for an Example
 end
