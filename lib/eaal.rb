@@ -23,6 +23,7 @@ require 'rubygems'
 require 'hpricot'
 require 'cgi'
 require 'faraday'
+require 'time'
 
 # And now EAAL stuff
 require 'eaal/cache/base'
@@ -33,7 +34,7 @@ require 'eaal/result'
 require 'eaal/rowset'
 
 module EAAL
-  VERSION = "0.1.10" # fix for Hoe.spec 2.x
+  VERSION = "0.1.11" # fix for Hoe.spec 2.x
   @@version_string = "EAAL" +  VERSION # the version string, used as client name in http requests
 
   @@api_base = "https://api.eveonline.com"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
