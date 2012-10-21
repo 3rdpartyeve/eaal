@@ -45,9 +45,19 @@ class EAAL::API
       req_path = source.path + format_url_request(opts.merge({
         :keyid => self.keyid,
         :vcode => self.vcode}))
+
       req = Net::HTTP::Get.new(req_path)
       req[EAAL.version_string]
-      res = Net::HTTP.new(source.host, source.port).start {|http| http.request(req) } #one request for now
+
+      http = Net::HTTP.new(source.host, source.port)
+      http.use_ssl = true
+      http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+      res = http.start do |http|
+        http.use_ssl = true
+        http.request(req)
+      end
+
+
       case res
       when Net::HTTPOK
       when Net::HTTPNotFound
