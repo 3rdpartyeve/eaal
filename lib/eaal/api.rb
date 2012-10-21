@@ -52,11 +52,7 @@ class EAAL::API
       http = Net::HTTP.new(source.host, source.port)
       http.use_ssl = true
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-      res = http.start do |http|
-        http.use_ssl = true
-        http.request(req)
-      end
-
+      res = http.start {|http| http.request(req) }
 
       case res
       when Net::HTTPOK
