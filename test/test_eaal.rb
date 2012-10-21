@@ -28,7 +28,7 @@ class TestEaal < Test::Unit::TestCase
   def test_api_parse_data
     @api.scope = "account"
     assert_equal @api.Characters.characters.first.name, "Test Tester"
-    assert_equal @api.Characters.characters.second.corporationID, "7890"
+    assert_equal @api.Characters.characters[1].corporationID, "7890"
     @api.scope = "char"
     assert_equal @api.Killlog(:characterID => 12345).kills.length, 1
     assert_equal @api.Killlog(:characterID => 12345).kills.first.victim.characterName, "Peter Powers"
