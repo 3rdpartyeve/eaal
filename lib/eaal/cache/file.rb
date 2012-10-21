@@ -21,8 +21,11 @@ class EAAL::Cache::FileCache
   def filename(userid, apikey, scope, name, args)
     ret =""
     args.delete_if { |k,v| (v || "").to_s.length == 0 }
-    h = args.stringify_keys
-    ret += h.sort.flatten.collect{ |e| e.to_s }.join('_')
+#    h = args.stringify_keys
+    args.keys.each do |key|
+      args[key.to_s] = args.delete(key)
+    end
+    ret += args.sort.flatten.collect{ |e| e.to_s }.join('_')
     hash = ret.gsub(/_$/,'')
     "#{@basepath}#{userid}/#{apikey}/#{scope}/#{name}/Request_#{hash}.xml"
   end
@@ -46,7 +49,7 @@ class EAAL::Cache::FileCache
   # validate cached datas cachedUntil
   def validate_cache(xml, name)
     doc = Hpricot.XML(xml)
-    cached_until = (doc/"/eveapi/cachedUntil").inner_html.to_time
+    cached_until = Time.parse((doc/"/eveapi/cachedUntil").inner_html)
     if name == "WalletJournal"
       result = Time.at(cached_until.to_i + 3600) > Time.now.utc
     else

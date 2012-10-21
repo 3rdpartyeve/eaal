@@ -28,7 +28,7 @@ class TestEaal < Test::Unit::TestCase
   def test_api_parse_data
     @api.scope = "account"
     assert_equal @api.Characters.characters.first.name, "Test Tester"
-    assert_equal @api.Characters.characters.second.corporationID, "7890"
+    assert_equal @api.Characters.characters[1].corporationID, "7890"
     @api.scope = "char"
     assert_equal @api.Killlog(:characterID => 12345).kills.length, 1
     assert_equal @api.Killlog(:characterID => 12345).kills.first.victim.characterName, "Peter Powers"
@@ -75,6 +75,15 @@ class TestEaal < Test::Unit::TestCase
     assert_equal @api.CorporationSheet(:corporationID => 150212025).walletDivisions[0].description, "Master Wallet"
   end
 
+  def test_cache_only
+    @api.scope = "char"
+    result = @api.ContactList(:characterID => 12345, :cache_only => true)
+    assert_nil result
+
+    assert_not_nil @api.Standings(:characterID => 12345, :cache_only => false)
+    assert_not_nil @api.Standings(:characterID => 12345)
+  end
+
   # Test to ensure Memcached works
   def test_memcached
     # FIXME must check if memcache server is installed... (binary memcache)
@@ -94,13 +103,13 @@ class TestEaal < Test::Unit::TestCase
     @api.scope = 'account'
 
     # store to cache
-    assert_equal EAAL.cache.save(@api.userid,@api.key,@api.scope,'Characters','',xml), "STORED\r\n"
+    assert_equal EAAL.cache.save(@api.keyid,@api.vcode,@api.scope,'Characters','',xml), "STORED\r\n"
 
     # check key in cache
-    assert_equal EAAL.cache.key(@api.userid,@api.key,@api.scope,'Characters',''), "testtestaccountCharacters"
+    assert_equal EAAL.cache.key(@api.keyid,@api.vcode,@api.scope,'Characters',''), "testtestaccountCharacters"
 
     # load from cache
-    assert_equal EAAL.cache.load(@api.userid,@api.key,@api.scope,'Characters',''), xml
+    assert_equal EAAL.cache.load(@api.keyid,@api.vcode,@api.scope,'Characters',''), xml
 
     # FIXME high level tests
     # Should store to cache
