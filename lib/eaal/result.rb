@@ -124,6 +124,15 @@ module EAAL
             result.request_time = (xml/"eveapi/currentTime").first.inner_html
             result.cached_until = (xml/"eveapi/cachedUntil").first.inner_html
             values.each { |key,value|
+                # This class may have been set up with some missing keys if the original
+                # response that trigged its creation didn't contain certain elements
+                # For example, some CharacterSheets don't have an "allianceName" element
+                # if the character isn't in an alliance.  This adds them if they're missing
+                if(!result.respond_to?("#{key}=".to_sym))
+                    result.class.class_eval do
+                        attr_accessor key.to_sym
+                    end
+                end
                 result.send(key + "=", value)
             }
             result
