@@ -14,10 +14,11 @@ module EAAL
 
         # Result Container class, ...
         class ResultContainer
-            attr_accessor :container
+            attr_accessor :container, :attribs
 
             def initialize
                 self.container = {}
+                self.attribs = {}
             end
 
             def add_element(key, val)
@@ -25,7 +26,11 @@ module EAAL
             end
 
             def method_missing(method, *args)
-                self.container[method.id2name]
+                if self.attribs.has_key?(method.id2name)
+                    self.attribs[method.id2name]
+                else
+                    self.container[method.id2name]
+                end
             end
 
             def to_hash
@@ -84,6 +89,9 @@ module EAAL
                     re = ResultElement.new(key, value)
                     if element.attributes.to_hash.length > 0
                         re.attribs.merge!(element.attributes.to_hash)
+                        if re.value.respond_to?(:attribs)
+                            re.value.attribs.merge!(element.attributes.to_hash)
+                        end
                     end
                 end
                 re
@@ -105,6 +113,7 @@ module EAAL
             elements = (xml/"eveapi/result").first.containers
             elements.each {|element|
                 el = EAAL::Result::ResultElement.parse_element(prefix, element)
+
                 members << el.name
                 if el.kind_of? EAAL::Rowset::RowsetBase
                     values.merge!({el.name => el})
