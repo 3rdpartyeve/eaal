@@ -57,6 +57,18 @@ class TestEaal < Test::Unit::TestCase
    assert_kind_of EAAL::Rowset::RowsetBase, @api.AllianceList.alliances.first.memberCorporations
   end
 
+  # test for ApiKeyInfo.xml
+  def test_api_key
+    @api.scope = "account"
+    assert_equal @api.APIKeyInfo.key.characters.length, 1
+    assert_equal @api.APIKeyInfo.key.characters[0].characterID, '12345'
+    assert_equal @api.APIKeyInfo.key.characters[0].characterName, 'Tester'
+    assert_equal @api.APIKeyInfo.key.characters[0].corporationID, '45678'
+    assert_equal @api.APIKeyInfo.key.accessMask, '59760264'
+    assert_equal @api.APIKeyInfo.key.type, 'Character'
+    assert_equal @api.APIKeyInfo.key.expires, '2011-09-11 00:00:00'
+  end
+
   # test for Standings.xml
   def test_standings
     @api.scope = "account"
