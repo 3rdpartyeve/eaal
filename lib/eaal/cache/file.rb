@@ -49,7 +49,7 @@ class EAAL::Cache::FileCache
   # validate cached datas cachedUntil
   def validate_cache(xml, name)
     doc = Hpricot.XML(xml)
-    cached_until = Time.parse((doc/"/eveapi/cachedUntil").inner_html)
+    cached_until = Time.zone.parse((doc/"/eveapi/cachedUntil").inner_html)
     if name == "WalletJournal"
       result = Time.at(cached_until.to_i + 3600) > Time.now.utc
     else
