@@ -13,7 +13,11 @@ class EAAL::API
   # * keyID (String | Integer) the keyID
   # * vCode (String) the vCode
   # * scope (String) defaults to account
-  def initialize(keyid, vcode, scope="account")
+  def initialize(keyid = nil, vcode = nil, scope="account")
+    keyid ||= EAAL.config.keyid
+    vcode ||= EAAL.config.vcode
+    scope = EAAL.config.scope if EAAL.config.scope
+    raise ArgumentError, 'Must specify keyid and vcode' unless keyid && vcode
     self.keyid = keyid.to_s
     self.vcode = vcode.to_s
     self.scope = scope.to_s
