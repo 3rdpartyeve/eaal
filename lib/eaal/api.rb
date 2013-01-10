@@ -17,7 +17,6 @@ class EAAL::API
     keyid ||= EAAL.config.keyid
     vcode ||= EAAL.config.vcode
     scope = EAAL.config.scope if EAAL.config.scope
-    raise ArgumentError, 'Must specify keyid and vcode' unless keyid && vcode
     self.keyid = keyid.to_s
     self.vcode = vcode.to_s
     self.scope = scope.to_s
