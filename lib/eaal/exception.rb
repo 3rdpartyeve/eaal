@@ -27,6 +27,11 @@ module EAAL::Exception
 
   # Used when an http error is encountered
   class HTTPError < EAALError
+    attr_reader :status
+
+    def initialize(status)
+      @status = status
+    end
   end
 
   # Used when the Eve API returns a 404
