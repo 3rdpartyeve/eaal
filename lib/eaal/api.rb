@@ -60,7 +60,12 @@ class EAAL::API
       when 404
         raise EAAL::Exception::APINotFoundError.new("The requested API (#{scope} / #{name}) could not be found.")
       else
-        raise EAAL::Exception::HTTPError.new(response.status), "An HTTP Error occurred, body: #{response.body}"
+        if response.body
+          doc = Hpricot.XML(response.body)
+          result = EAAL::Result.new(scope.capitalize + name, doc)
+        else
+          raise EAAL::Exception::HTTPError.new(response.status), "An HTTP Error occurred, body: #{response.body}"
+        end
       end
 
       EAAL.cache.save(self.keyid, self.vcode, scope,name,opts, response.body)
