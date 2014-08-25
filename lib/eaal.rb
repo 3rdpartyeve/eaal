@@ -32,6 +32,7 @@ require 'eaal/cache/memcached'
 require 'eaal/exception'
 require 'eaal/result'
 require 'eaal/rowset'
+require 'eaal/config'
 
 module EAAL
   VERSION = "0.1.12" # fix for Hoe.spec 2.x
@@ -40,6 +41,7 @@ module EAAL
   @@api_base = "https://api.eveonline.com"  # the url used as basis for all requests, you might want to use gatecamper url or a personal proxy instead
   @@additional_request_parameters = {}       # hash, if :key => value pairs are added those will be added to each request
   @@cache = EAAL::Cache::NoCache.new         # caching object, see EAAL::Cache::FileCache for an Example
+  @@config = EAAL::Config.new
 
   def self.version_string
     @@version_string
@@ -64,6 +66,9 @@ module EAAL
   end
   def self.cache=(val)
     @@cache = val
+  end
+  def self.config
+    @@config
   end
 end
 require 'eaal/api'
