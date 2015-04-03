@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Peter Petermann"]
-  s.date = "2012-10-21"
+  s.date = "2015-04-03"
   s.description = "EAAL (Eve API Access Layer) is a ruby library for accessing data of the API of\nthe game Eve Online"
   s.email = ["ppetermann80@googlemail.com"]
   s.extra_rdoc_files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.rdoc"]
