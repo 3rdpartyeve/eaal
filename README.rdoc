@@ -1,3 +1,7 @@
+= DEPRECATED AND ARCHIVED
+the API this was build for does no longer exist, as it was replaced in 2018 by CCP. If you are reading this, most likely this lib is not what you are looking for.
+
+
 = eaal
 * http://eaal.rubyforge.org
 
